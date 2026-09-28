@@ -1,0 +1,22 @@
+[
+ {
+  "window": 0,
+  "first_position": 1,
+  "oracle_bulletin": "CURRENT ACTUAL POLICY (authoritative; overrides the manual where they differ):\n[card transactions] Gift cards on basic-verification accounts: DENY (verification_required); verified accounts unrestricted.\n[card transactions] Electronics instant-approve limit: $650.00; above it ESCALATE (over_limit).\n[limit increases] Accounts with a recent chargeback: DENY (account_standing), whatever the amount.\n[limit increases] Approvable cap: $5000.00; above the cap DENY (cap_exceeded).\n[transfers] Restricted payees (DENY, restricted_payee): PAY-106, PAY-165, PAY-186.\n[transfers] Reporting threshold: $8000.00; above it ESCALATE (reportable_amount).\nAnything not restricted above: APPROVE. When two rules apply, the first matching line above wins."
+ },
+ {
+  "window": 1,
+  "first_position": 85,
+  "oracle_bulletin": "CURRENT ACTUAL POLICY (authoritative; overrides the manual where they differ):\n[card transactions] Jewelry from overseas merchants: DENY (corridor_blocked).\n[card transactions] Gift cards on basic-verification accounts: DENY (verification_required); verified accounts unrestricted.\n[card transactions] Electronics instant-approve limit: $650.00; above it ESCALATE (over_limit).\n[limit increases] Accounts with a recent chargeback: DENY (account_standing), whatever the amount.\n[limit increases] Approvable cap: $5000.00; above the cap DENY (cap_exceeded).\n[transfers] Restricted payees (DENY, restricted_payee): PAY-106, PAY-165, PAY-186.\n[transfers] Reporting threshold: $8000.00; above it ESCALATE (reportable_amount).\nAnything not restricted above: APPROVE. When two rules apply, the first matching line above wins."
+ },
+ {
+  "window": 2,
+  "first_position": 169,
+  "oracle_bulletin": "CURRENT ACTUAL POLICY (authoritative; overrides the manual where they differ):\n[card transactions] Jewelry from overseas merchants: DENY (corridor_blocked).\n[card transactions] Gift cards on basic-verification accounts: DENY (verification_required); verified accounts unrestricted.\n[card transactions] Electronics instant-approve limit: $650.00; above it ESCALATE (over_limit).\n[limit increases] Accounts with a recent chargeback: DENY (account_standing), whatever the amount.\n[limit increases] Approvable cap: $5000.00; above the cap DENY (cap_exceeded).\n[transfers] Restricted payees (DENY, restricted_payee): PAY-106, PAY-165, PAY-186.\n[transfers] Reporting threshold: $8000.00; above it ESCALATE (reportable_amount).\nAnything not restricted above: APPROVE. When two rules apply, the first matching line above wins."
+ },
+ {
+  "window": 3,
+  "first_position": 253,
+  "oracle_bulletin": "CURRENT ACTUAL POLICY (authoritative; overrides the manual where they differ):\n[card transactions] Jewelry from overseas merchants: DENY (corridor_blocked).\n[card transactions] Gift cards on basic-verification accounts: DENY (verification_required); verified accounts unrestricted.\n[card transactions] Electronics instant-approve limit: $650.00; above it ESCALATE (over_limit).\n[limit increases] Accounts with a recent chargeback: DENY (account_standing), whatever the amount.\n[limit increases] Approvable cap: $5000.00; above the cap DENY (cap_exceeded).\n[transfers] Restricted payees (DENY, restricted_payee): PAY-106, PAY-165, PAY-186, PAY-247, PAY-273.\n[transfers] Reporting threshold: $8000.00; above it ESCALATE (reportable_amount).\nAnything not restricted above: APPROVE. When two rules apply, the first matching line above wins."
+ }
+]

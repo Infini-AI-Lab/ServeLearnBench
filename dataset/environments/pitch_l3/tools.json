@@ -1,0 +1,21 @@
+[
+ {
+  "type": "function",
+  "function": {
+   "name": "finish",
+   "description": "Submit your final pitch. This ends the episode: call it exactly once, as the only call of its turn.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "pitch": {
+      "type": "string",
+      "description": "Your 40-80 word pitch."
+     }
+    },
+    "required": [
+     "pitch"
+    ]
+   }
+  }
+ }
+]

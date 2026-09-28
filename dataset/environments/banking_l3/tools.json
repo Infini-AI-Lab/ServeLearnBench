@@ -1,0 +1,213 @@
+[
+ {
+  "type": "function",
+  "function": {
+   "name": "read_docs",
+   "description": "Retrieve a section of the frozen risk manual (doc: policy | workflow).",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "doc": {
+      "type": "string"
+     },
+     "section": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "doc"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_case_details",
+   "description": "Look up the case under review \u2014 a pending card transaction (TXN-...), a limit-increase request (LIM-...) or an outbound transfer (TRF-...). A case may list several ranked alternatives under `legs`; leg 1 is the customer's first preference.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "case_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "case_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_account_details",
+   "description": "Look up an account: holder, home state, verification level, standing, tenure, current credit limit, and today's approved same-day total (today_total).",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "account_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "account_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_merchant_details",
+   "description": "Look up a merchant: name, category, region.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "merchant_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "merchant_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_payee_details",
+   "description": "Look up a transfer payee: name, type, jurisdiction, and how many days ago the payee was added (added_days_ago).",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "payee_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "payee_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "approve_case",
+   "description": "Approve the pending case. Final.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "case_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "case_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "deny_case",
+   "description": "Deny the pending case, citing a reason code. Final.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "reason": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "case_id",
+     "reason"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "escalate_case",
+   "description": "Send the pending case to manual review, citing a reason code. Final.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "reason": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "case_id",
+     "reason"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "execute_leg",
+   "description": "Carry out one of a case's ranked alternatives, identified by its leg number. Final.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "leg": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "case_id",
+     "leg"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "decide_batch",
+   "description": "Settle every line of a payment batch in one call. `decisions` is a list of {line, action, reason} objects \u2014 action is approve, deny or escalate, and reason is required unless the action is approve. Every line must appear exactly once. Final.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "decisions": {
+      "type": "array"
+     }
+    },
+    "required": [
+     "case_id",
+     "decisions"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "finish",
+   "description": "End the episode after your decision tool call. Takes no arguments. Call it exactly once, as the only call of its turn.",
+   "parameters": {
+    "type": "object",
+    "properties": {},
+    "required": []
+   }
+  }
+ }
+]

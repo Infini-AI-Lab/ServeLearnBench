@@ -1,0 +1,325 @@
+[
+ {
+  "type": "function",
+  "function": {
+   "name": "read_docs",
+   "description": "Read the store's reference documents at SECTION granularity. Call with only `doc` to get the table of contents (section slugs); call again with `section` to read that section. 'policy' holds the rules (what may / may not be done); 'workflow' holds operating procedures and domain reference. Consult the relevant policy section before any write action or refusal.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "doc": {
+      "type": "string",
+      "enum": [
+       "policy",
+       "workflow"
+      ],
+      "description": "Which document."
+     },
+     "section": {
+      "type": "string",
+      "description": "Section slug from the table of contents, e.g. 'cancellation'. Omit to list sections."
+     }
+    },
+    "required": [
+     "doc"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "find_user_id_by_name_zip",
+   "description": "Find user id by first name, last name, and zip code. Returns an error message if not found.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "first_name": {
+      "type": "string",
+      "description": "First name, e.g. 'John'."
+     },
+     "last_name": {
+      "type": "string",
+      "description": "Last name, e.g. 'Doe'."
+     },
+     "zip": {
+      "type": "string",
+      "description": "Zip code, e.g. '12345'."
+     }
+    },
+    "required": [
+     "first_name",
+     "last_name",
+     "zip"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_user_details",
+   "description": "Get the details of a user, including their orders, addresses, and payment methods.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "user_id": {
+      "type": "string",
+      "description": "The user id, e.g. 'noah_brown_6181'."
+     }
+    },
+    "required": [
+     "user_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_order_details",
+   "description": "Get the status, items, and payment history of an order.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "order_id": {
+      "type": "string",
+      "description": "The order id, e.g. '#W0000000'. Note the leading '#'."
+     }
+    },
+    "required": [
+     "order_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_product_details",
+   "description": "Get the variants (item ids, options, availability, price) of a product.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "product_id": {
+      "type": "string",
+      "description": "The product id, e.g. '9523456873'. This is not the item id."
+     }
+    },
+    "required": [
+     "product_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "cancel_pending_order",
+   "description": "Cancel an order. See the policy and workflow documents for the rules and procedure.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "order_id": {
+      "type": "string",
+      "description": "The order id, e.g. '#W0000000'."
+     },
+     "reason": {
+      "type": "string",
+      "description": "Cancellation reason (see policy for valid values)."
+     }
+    },
+    "required": [
+     "order_id",
+     "reason"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "place_order",
+   "description": "Place a new order for a user. Payment rules: if the payment method is a gift card, its balance must cover the total; when it does not, a non-gift-card fallback payment method is required \u2014 the gift card is drained and the remainder is charged to the fallback. Without a fallback, an order exceeding the gift card balance is rejected. Requires explicit user confirmation before calling.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "user_id": {
+      "type": "string",
+      "description": "The user id, e.g. 'noah_brown_6181'."
+     },
+     "item_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      },
+      "description": "Catalog item ids (variants) to order, e.g. '1008292230'."
+     },
+     "payment_method_id": {
+      "type": "string",
+      "description": "Primary payment method id."
+     },
+     "fallback_payment_method_id": {
+      "type": "string",
+      "description": "Optional non-gift-card method charged for the remainder when a gift card cannot cover the total."
+     }
+    },
+    "required": [
+     "user_id",
+     "item_ids",
+     "payment_method_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "modify_pending_order_items",
+   "description": "Modify items of a pending order to other variants of the same products. See the policy and workflow documents for the rules and procedure.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "order_id": {
+      "type": "string",
+      "description": "The order id, e.g. '#W0000000'."
+     },
+     "item_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      },
+      "description": "The current item ids to change."
+     },
+     "new_item_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      },
+      "description": "The replacement item ids, same length/order as item_ids."
+     },
+     "payment_method_id": {
+      "type": "string",
+      "description": "Payment method for settling the price difference."
+     }
+    },
+    "required": [
+     "order_id",
+     "item_ids",
+     "new_item_ids",
+     "payment_method_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "return_delivered_order_items",
+   "description": "Return items of an order. See the policy and workflow documents for the rules, fees, windows, and procedure.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "order_id": {
+      "type": "string",
+      "description": "The order id, e.g. '#W0000000'."
+     },
+     "item_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      },
+      "description": "The item ids to return."
+     },
+     "payment_method_id": {
+      "type": "string",
+      "description": "Refund destination payment method id."
+     },
+     "reason": {
+      "type": "string",
+      "description": "Return reason (see policy for valid values)."
+     }
+    },
+    "required": [
+     "order_id",
+     "item_ids",
+     "payment_method_id",
+     "reason"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "exchange_delivered_order_items",
+   "description": "Exchange items of an order for other variants of the same products. See the policy and workflow documents for the rules and procedure.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "order_id": {
+      "type": "string",
+      "description": "The order id, e.g. '#W0000000'."
+     },
+     "item_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      },
+      "description": "The item ids to exchange away."
+     },
+     "new_item_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "string"
+      },
+      "description": "The replacement item ids, same length/order as item_ids."
+     },
+     "payment_method_id": {
+      "type": "string",
+      "description": "Payment method for settling the price difference."
+     }
+    },
+    "required": [
+     "order_id",
+     "item_ids",
+     "new_item_ids",
+     "payment_method_id"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "finish",
+   "description": "Submit the outcome and end the episode: finish(answer=...) for a question, finish(decision=\"refuse\", reason=\"<code>\") to decline the request, finish() after a completed action task. Call it exactly once, as the only call of its turn.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "answer": {
+      "description": "Your final answer to the customer's question \u2014 a number, a string, or a list of strings. Omit for action tasks."
+     },
+     "decision": {
+      "type": "string",
+      "enum": [
+       "refuse"
+      ],
+      "description": "Set to \"refuse\" to decline the request instead of carrying it out."
+     },
+     "reason": {
+      "type": "string",
+      "description": "The refusal reason code (with decision=\"refuse\")."
+     }
+    },
+    "required": []
+   }
+  }
+ }
+]

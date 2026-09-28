@@ -1,0 +1,5 @@
+## review_steps
+1) get_case_details for the case under review. 2) get_account_details, and get_merchant_details or get_payee_details as the case requires. 3) Apply policy and issue exactly one decision tool call. 4) finish.
+
+## reasons
+Reason codes: corridor_blocked | verification_required | over_limit | account_standing | cap_exceeded | restricted_payee | reportable_amount. corridor_blocked: this payment corridor is closed under current practice. verification_required: the account must complete additional verification for this purchase. over_limit: the amount exceeds the category's instant-approve limit. account_standing: the account has a recent chargeback, which blocks limit increases. cap_exceeded: the requested limit is above the approvable cap. restricted_payee: the payee is on the restricted roster. reportable_amount: the transfer is above the reporting threshold.

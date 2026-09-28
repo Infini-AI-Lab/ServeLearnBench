@@ -135,7 +135,7 @@ learning work and held-out test). Per-setting scores are in [docs/leaderboard.cs
 - [Benchmark](docs/benchmark.md): the EESD formulation, domains, tiers and scenarios
 - [Protocol](docs/protocol.md): what the agent and a learning method may see, budgets, scoring
 - [Methods](docs/methods.md): the three included methods and how to add your own
-- [Data](docs/data.md): the dataset files and their fields
+- [Data](docs/data.md): the dataset files in `dataset/` and their fields
 
 ## Repository layout
 
@@ -153,6 +153,7 @@ servelearnbench/
 tests/            offline tests (no API calls)
 docs/             documentation and the leaderboard CSV
 website/          the project page (GitHub Pages), built by website/build.py
+dataset/          the exported task streams and environments of all nine scenarios
 examples/
 ```
 

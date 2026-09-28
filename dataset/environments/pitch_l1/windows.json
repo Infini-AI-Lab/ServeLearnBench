@@ -1,0 +1,22 @@
+[
+ {
+  "window": 0,
+  "first_position": 1,
+  "oracle_bulletin": "The customer is the value-for-money buyer.\nThey like: budget-friendly price; mid-range price; feature-rich, does a lot.\nThey dislike: premium price; made from sustainable / eco materials; a trending, much-talked-about item.\nThese lists describe the customer's TASTE in general. Use ONLY facts that actually appear on this product's sheet: praise the sheet facts the customer likes, and do not bring up the ones they dislike AT ALL. Two things count as false and are scored against you: stating the opposite of a sheet fact, and claiming anything the sheet does not state at all. A liked trait that is not on this sheet is not available to you. If few likable facts apply, a shorter pitch is better than touching a disliked topic."
+ },
+ {
+  "window": 1,
+  "first_position": 55,
+  "oracle_bulletin": "The customer is the identity-expressive buyer.\nThey like: has only a small number of owners; premium price; made from sustainable / eco materials; provides only the essential functions, with few extras.\nThey dislike: already has a large user base; budget-friendly price (do NOT bring this up); a trending, much-talked-about item.\nThese lists describe the customer's TASTE in general. Use ONLY facts that actually appear on this product's sheet: praise the sheet facts the customer likes, and do not bring up the ones they dislike AT ALL. Two things count as false and are scored against you: stating the opposite of a sheet fact, and claiming anything the sheet does not state at all. A liked trait that is not on this sheet is not available to you. If few likable facts apply, a shorter pitch is better than touching a disliked topic."
+ },
+ {
+  "window": 2,
+  "first_position": 109,
+  "oracle_bulletin": "The customer is the anti-marketing rationalist.\nThey like: mid-range price; budget-friendly price; provides only the essential functions, with few extras; rarely mentioned in the press or on social media.\nThey dislike: already has a large user base (do NOT bring this up); premium price; made from sustainable / eco materials; feature-rich, does a lot; a trending, much-talked-about item (do NOT bring this up).\nThese lists describe the customer's TASTE in general. Use ONLY facts that actually appear on this product's sheet: praise the sheet facts the customer likes, and do not bring up the ones they dislike AT ALL. Two things count as false and are scored against you: stating the opposite of a sheet fact, and claiming anything the sheet does not state at all. A liked trait that is not on this sheet is not available to you. If few likable facts apply, a shorter pitch is better than touching a disliked topic."
+ },
+ {
+  "window": 3,
+  "first_position": 163,
+  "oracle_bulletin": "The customer is the risk-averse buyer.\nThey like: already has a large user base; mid-range price; feature-rich, does a lot.\nThey dislike: has only a small number of owners; a trending, much-talked-about item.\nThese lists describe the customer's TASTE in general. Use ONLY facts that actually appear on this product's sheet: praise the sheet facts the customer likes, and do not bring up the ones they dislike AT ALL. Two things count as false and are scored against you: stating the opposite of a sheet fact, and claiming anything the sheet does not state at all. A liked trait that is not on this sheet is not available to you. If few likable facts apply, a shorter pitch is better than touching a disliked topic."
+ }
+]

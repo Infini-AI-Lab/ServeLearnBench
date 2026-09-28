@@ -15,7 +15,7 @@ slb verify
 pytest -q
 ```
 
-Tasks, worlds and documents are generated deterministically by code. The same files are published as a dataset
+Tasks, worlds and documents are generated deterministically by code. The exported files are in `dataset/`
 for inspection or use in other frameworks ([data.md](data.md)).
 
 ## Models and endpoints
