@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "servelearnbench"
+description = "ServeLearnBench: how well can agents self-improve from serving experience?"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.12"
+dynamic = ["version"]
+authors = [{name = "ServeLearnBench Team"}]
+keywords = ["benchmark", "llm-agents", "continual-learning", "tool-use", "evaluation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "openai>=2.0,<3",
+    "httpx>=0.27,<1",
+    "pydantic>=2.8,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "pre-commit"]
+
+[project.scripts]
+slb = "servelearnbench.cli:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "servelearnbench.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["servelearnbench*"]
+
+[tool.setuptools.package-data]
+servelearnbench = ["fingerprints.json", "domains/retail/data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+extend-exclude = ["servelearnbench/domains"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501", "E731"]

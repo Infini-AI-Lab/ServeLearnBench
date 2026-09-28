@@ -1,0 +1,5255 @@
+{
+ "0012996727": {
+  "category": "apparel",
+  "name": "Cotton Hoodie",
+  "product_id": "0012996727",
+  "variants": {
+   "3352230767": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3352230767",
+    "options": {
+     "color": "navy",
+     "size": "L",
+     "zip": "pullover"
+    },
+    "price": 136.59
+   },
+   "3790224641": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3790224641",
+    "options": {
+     "color": "maroon",
+     "size": "S",
+     "zip": "pullover"
+    },
+    "price": 147.5
+   },
+   "4291244498": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4291244498",
+    "options": {
+     "color": "maroon",
+     "size": "M",
+     "zip": "pullover"
+    },
+    "price": 164.18
+   },
+   "4599892081": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4599892081",
+    "options": {
+     "color": "black",
+     "size": "XL",
+     "zip": "pullover"
+    },
+    "price": 186.6
+   },
+   "5139192495": {
+    "available": false,
+    "clearance": false,
+    "item_id": "5139192495",
+    "options": {
+     "color": "heather grey",
+     "size": "S",
+     "zip": "pullover"
+    },
+    "price": 198.68
+   },
+   "5617524480": {
+    "available": true,
+    "clearance": true,
+    "item_id": "5617524480",
+    "options": {
+     "color": "black",
+     "size": "S",
+     "zip": "pullover"
+    },
+    "price": 174.64
+   },
+   "6915432145": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6915432145",
+    "options": {
+     "color": "maroon",
+     "size": "L",
+     "zip": "pullover"
+    },
+    "price": 172.65
+   },
+   "8358650557": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8358650557",
+    "options": {
+     "color": "heather grey",
+     "size": "M",
+     "zip": "full-zip"
+    },
+    "price": 147.89
+   }
+  }
+ },
+ "0472345931": {
+  "category": "home",
+  "name": "Electric Kettle",
+  "product_id": "0472345931",
+  "variants": {
+   "2197649324": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2197649324",
+    "options": {
+     "capacity": "1.7L",
+     "color": "black",
+     "control": "basic"
+    },
+    "price": 136.29
+   },
+   "2436584109": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2436584109",
+    "options": {
+     "capacity": "1.7L",
+     "color": "white",
+     "control": "basic"
+    },
+    "price": 103.47
+   },
+   "2560952302": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2560952302",
+    "options": {
+     "capacity": "1.7L",
+     "color": "black",
+     "control": "variable temp"
+    },
+    "price": 94.87
+   },
+   "4622829502": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4622829502",
+    "options": {
+     "capacity": "1.7L",
+     "color": "white",
+     "control": "variable temp"
+    },
+    "price": 51.95
+   },
+   "4977886243": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4977886243",
+    "options": {
+     "capacity": "1.7L",
+     "color": "silver",
+     "control": "variable temp"
+    },
+    "price": 89.64
+   },
+   "6106104142": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6106104142",
+    "options": {
+     "capacity": "1.0L",
+     "color": "silver",
+     "control": "variable temp"
+    },
+    "price": 125.1
+   },
+   "6186489173": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6186489173",
+    "options": {
+     "capacity": "1.0L",
+     "color": "black",
+     "control": "variable temp"
+    },
+    "price": 82.45
+   },
+   "8958836194": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8958836194",
+    "options": {
+     "capacity": "1.0L",
+     "color": "white",
+     "control": "variable temp"
+    },
+    "price": 90.59
+   },
+   "9337347435": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9337347435",
+    "options": {
+     "capacity": "1.0L",
+     "color": "white",
+     "control": "basic"
+    },
+    "price": 28.65
+   }
+  }
+ },
+ "0765046694": {
+  "category": "apparel",
+  "name": "Yoga Leggings",
+  "product_id": "0765046694",
+  "variants": {
+   "0336804856": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0336804856",
+    "options": {
+     "color": "slate",
+     "length": "full",
+     "size": "M"
+    },
+    "price": 175.84
+   },
+   "0357086926": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0357086926",
+    "options": {
+     "color": "slate",
+     "length": "full",
+     "size": "XL"
+    },
+    "price": 180.77
+   },
+   "0816950437": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0816950437",
+    "options": {
+     "color": "plum",
+     "length": "full",
+     "size": "M"
+    },
+    "price": 125.61
+   },
+   "1021972082": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1021972082",
+    "options": {
+     "color": "slate",
+     "length": "7/8",
+     "size": "L"
+    },
+    "price": 147.31
+   },
+   "1131901713": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1131901713",
+    "options": {
+     "color": "slate",
+     "length": "full",
+     "size": "S"
+    },
+    "price": 154.26
+   },
+   "2553802848": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2553802848",
+    "options": {
+     "color": "black",
+     "length": "full",
+     "size": "S"
+    },
+    "price": 122.55
+   },
+   "3997673302": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3997673302",
+    "options": {
+     "color": "plum",
+     "length": "7/8",
+     "size": "XL"
+    },
+    "price": 140.54
+   },
+   "5644868604": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5644868604",
+    "options": {
+     "color": "plum",
+     "length": "7/8",
+     "size": "L"
+    },
+    "price": 126.97
+   },
+   "6672176728": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6672176728",
+    "options": {
+     "color": "plum",
+     "length": "full",
+     "size": "L"
+    },
+    "price": 174.04
+   },
+   "6684432038": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6684432038",
+    "options": {
+     "color": "black",
+     "length": "full",
+     "size": "XL"
+    },
+    "price": 163.49
+   },
+   "7792553780": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7792553780",
+    "options": {
+     "color": "plum",
+     "length": "full",
+     "size": "S"
+    },
+    "price": 171.57
+   }
+  }
+ },
+ "1235311858": {
+  "category": "apparel",
+  "name": "Baseball Cap",
+  "product_id": "1235311858",
+  "variants": {
+   "1409903105": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1409903105",
+    "options": {
+     "closure": "strapback",
+     "color": "black"
+    },
+    "price": 49.17
+   },
+   "2730842823": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2730842823",
+    "options": {
+     "closure": "strapback",
+     "color": "red"
+    },
+    "price": 87.55
+   },
+   "2939784695": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2939784695",
+    "options": {
+     "closure": "strapback",
+     "color": "green"
+    },
+    "price": 132.6
+   },
+   "2993518622": {
+    "available": true,
+    "clearance": true,
+    "item_id": "2993518622",
+    "options": {
+     "closure": "snapback",
+     "color": "red"
+    },
+    "price": 93.85
+   },
+   "3025561342": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3025561342",
+    "options": {
+     "closure": "strapback",
+     "color": "grey"
+    },
+    "price": 40.7
+   },
+   "5166934815": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5166934815",
+    "options": {
+     "closure": "snapback",
+     "color": "blue"
+    },
+    "price": 133.83
+   },
+   "6512414930": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6512414930",
+    "options": {
+     "closure": "snapback",
+     "color": "grey"
+    },
+    "price": 71.54
+   },
+   "6758780368": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6758780368",
+    "options": {
+     "closure": "strapback",
+     "color": "white"
+    },
+    "price": 122.35
+   },
+   "7242055607": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7242055607",
+    "options": {
+     "closure": "snapback",
+     "color": "black"
+    },
+    "price": 53.57
+   },
+   "7733087254": {
+    "available": false,
+    "clearance": false,
+    "item_id": "7733087254",
+    "options": {
+     "closure": "snapback",
+     "color": "white"
+    },
+    "price": 40.34
+   },
+   "9263426084": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9263426084",
+    "options": {
+     "closure": "strapback",
+     "color": "blue"
+    },
+    "price": 97.39
+   }
+  }
+ },
+ "1269060443": {
+  "category": "electronics",
+  "name": "Smart Thermostat",
+  "product_id": "1269060443",
+  "variants": {
+   "0251678008": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0251678008",
+    "options": {
+     "color": "white",
+     "compatibility": "Google Home",
+     "display": "touch"
+    },
+    "price": 263.73
+   },
+   "2070741374": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2070741374",
+    "options": {
+     "color": "black",
+     "compatibility": "Amazon Alexa",
+     "display": "touch"
+    },
+    "price": 265.87
+   },
+   "4093192544": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4093192544",
+    "options": {
+     "color": "white",
+     "compatibility": "Apple HomeKit",
+     "display": "dial"
+    },
+    "price": 259.21
+   },
+   "4777183417": {
+    "available": false,
+    "clearance": false,
+    "item_id": "4777183417",
+    "options": {
+     "color": "black",
+     "compatibility": "Google Home",
+     "display": "dial"
+    },
+    "price": 213.33
+   },
+   "7187463319": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7187463319",
+    "options": {
+     "color": "black",
+     "compatibility": "Google Home",
+     "display": "touch"
+    },
+    "price": 218.86
+   },
+   "7407188181": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7407188181",
+    "options": {
+     "color": "white",
+     "compatibility": "Amazon Alexa",
+     "display": "touch"
+    },
+    "price": 268.68
+   },
+   "7414333776": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7414333776",
+    "options": {
+     "color": "black",
+     "compatibility": "Amazon Alexa",
+     "display": "dial"
+    },
+    "price": 217.83
+   },
+   "8682889093": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8682889093",
+    "options": {
+     "color": "white",
+     "compatibility": "Amazon Alexa",
+     "display": "dial"
+    },
+    "price": 218.47
+   }
+  }
+ },
+ "1917037647": {
+  "category": "home",
+  "name": "Wall Clock",
+  "product_id": "1917037647",
+  "variants": {
+   "0629494363": {
+    "available": false,
+    "clearance": false,
+    "item_id": "0629494363",
+    "options": {
+     "color": "white",
+     "diameter": "12in"
+    },
+    "price": 84.02
+   },
+   "0838728322": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0838728322",
+    "options": {
+     "color": "white",
+     "diameter": "14in"
+    },
+    "price": 97.57
+   },
+   "3335851907": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3335851907",
+    "options": {
+     "color": "black",
+     "diameter": "14in"
+    },
+    "price": 92.95
+   },
+   "5827880296": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5827880296",
+    "options": {
+     "color": "walnut",
+     "diameter": "12in"
+    },
+    "price": 140.0
+   },
+   "5919981776": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5919981776",
+    "options": {
+     "color": "black",
+     "diameter": "10in"
+    },
+    "price": 26.36
+   },
+   "6026128485": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6026128485",
+    "options": {
+     "color": "black",
+     "diameter": "12in"
+    },
+    "price": 36.68
+   },
+   "7010523843": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7010523843",
+    "options": {
+     "color": "walnut",
+     "diameter": "10in"
+    },
+    "price": 84.42
+   },
+   "8220819500": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8220819500",
+    "options": {
+     "color": "walnut",
+     "diameter": "14in"
+    },
+    "price": 48.85
+   },
+   "9035626163": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9035626163",
+    "options": {
+     "color": "white",
+     "diameter": "10in"
+    },
+    "price": 62.63
+   }
+  }
+ },
+ "2392391793": {
+  "category": "home",
+  "name": "Storage Ottoman",
+  "product_id": "2392391793",
+  "variants": {
+   "2802565993": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2802565993",
+    "options": {
+     "color": "beige",
+     "material": "linen",
+     "size": "large"
+    },
+    "price": 130.71
+   },
+   "2886241209": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2886241209",
+    "options": {
+     "color": "navy",
+     "material": "faux leather",
+     "size": "large"
+    },
+    "price": 128.94
+   },
+   "4783798282": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4783798282",
+    "options": {
+     "color": "beige",
+     "material": "faux leather",
+     "size": "large"
+    },
+    "price": 119.46
+   },
+   "5616156556": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5616156556",
+    "options": {
+     "color": "beige",
+     "material": "faux leather",
+     "size": "small"
+    },
+    "price": 162.78
+   },
+   "5723856333": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5723856333",
+    "options": {
+     "color": "navy",
+     "material": "linen",
+     "size": "large"
+    },
+    "price": 111.93
+   },
+   "6596442371": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6596442371",
+    "options": {
+     "color": "grey",
+     "material": "linen",
+     "size": "large"
+    },
+    "price": 109.97
+   },
+   "7774580588": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7774580588",
+    "options": {
+     "color": "grey",
+     "material": "linen",
+     "size": "small"
+    },
+    "price": 178.13
+   },
+   "7980075866": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7980075866",
+    "options": {
+     "color": "grey",
+     "material": "faux leather",
+     "size": "large"
+    },
+    "price": 160.07
+   },
+   "9518426779": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9518426779",
+    "options": {
+     "color": "grey",
+     "material": "faux leather",
+     "size": "small"
+    },
+    "price": 146.06
+   }
+  }
+ },
+ "2521507424": {
+  "category": "apparel",
+  "name": "Flannel Shirt",
+  "product_id": "2521507424",
+  "variants": {
+   "1951039245": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1951039245",
+    "options": {
+     "color": "green plaid",
+     "fit": "relaxed",
+     "size": "M"
+    },
+    "price": 103.82
+   },
+   "3122406698": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3122406698",
+    "options": {
+     "color": "green plaid",
+     "fit": "slim",
+     "size": "XL"
+    },
+    "price": 106.51
+   },
+   "3883101079": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3883101079",
+    "options": {
+     "color": "red plaid",
+     "fit": "relaxed",
+     "size": "M"
+    },
+    "price": 117.15
+   },
+   "6159277244": {
+    "available": false,
+    "clearance": false,
+    "item_id": "6159277244",
+    "options": {
+     "color": "grey plaid",
+     "fit": "slim",
+     "size": "XL"
+    },
+    "price": 190.0
+   },
+   "7078519130": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7078519130",
+    "options": {
+     "color": "green plaid",
+     "fit": "relaxed",
+     "size": "S"
+    },
+    "price": 183.8
+   },
+   "7920566013": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7920566013",
+    "options": {
+     "color": "red plaid",
+     "fit": "relaxed",
+     "size": "L"
+    },
+    "price": 110.55
+   },
+   "7926684981": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7926684981",
+    "options": {
+     "color": "grey plaid",
+     "fit": "slim",
+     "size": "L"
+    },
+    "price": 102.14
+   },
+   "8225233351": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8225233351",
+    "options": {
+     "color": "red plaid",
+     "fit": "slim",
+     "size": "M"
+    },
+    "price": 199.72
+   },
+   "9119333980": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9119333980",
+    "options": {
+     "color": "green plaid",
+     "fit": "relaxed",
+     "size": "L"
+    },
+    "price": 181.24
+   }
+  }
+ },
+ "2611695722": {
+  "category": "electronics",
+  "name": "E-Reader",
+  "product_id": "2611695722",
+  "variants": {
+   "0021581086": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0021581086",
+    "options": {
+     "color": "white",
+     "screen": "6in",
+     "storage": "8GB"
+    },
+    "price": 261.61
+   },
+   "0750961923": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0750961923",
+    "options": {
+     "color": "white",
+     "screen": "6in",
+     "storage": "16GB"
+    },
+    "price": 259.2
+   },
+   "1233080516": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1233080516",
+    "options": {
+     "color": "white",
+     "screen": "7in",
+     "storage": "8GB"
+    },
+    "price": 257.56
+   },
+   "2009773797": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2009773797",
+    "options": {
+     "color": "black",
+     "screen": "7in",
+     "storage": "16GB"
+    },
+    "price": 275.58
+   },
+   "2019132742": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2019132742",
+    "options": {
+     "color": "black",
+     "screen": "6in",
+     "storage": "32GB"
+    },
+    "price": 264.15
+   },
+   "5428211673": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5428211673",
+    "options": {
+     "color": "black",
+     "screen": "6in",
+     "storage": "16GB"
+    },
+    "price": 234.92
+   },
+   "7611256517": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7611256517",
+    "options": {
+     "color": "white",
+     "screen": "7in",
+     "storage": "16GB"
+    },
+    "price": 250.33
+   },
+   "8464936657": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8464936657",
+    "options": {
+     "color": "black",
+     "screen": "7in",
+     "storage": "32GB"
+    },
+    "price": 250.27
+   },
+   "9372930682": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9372930682",
+    "options": {
+     "color": "black",
+     "screen": "7in",
+     "storage": "8GB"
+    },
+    "price": 241.15
+   }
+  }
+ },
+ "2707112282": {
+  "category": "home",
+  "name": "Yoga Mat",
+  "product_id": "2707112282",
+  "variants": {
+   "0294742445": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0294742445",
+    "options": {
+     "color": "purple",
+     "thickness": "4mm"
+    },
+    "price": 28.26
+   },
+   "1154444279": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1154444279",
+    "options": {
+     "color": "green",
+     "thickness": "4mm"
+    },
+    "price": 91.27
+   },
+   "1889998108": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1889998108",
+    "options": {
+     "color": "purple",
+     "thickness": "6mm"
+    },
+    "price": 95.73
+   },
+   "3619188511": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3619188511",
+    "options": {
+     "color": "green",
+     "thickness": "6mm"
+    },
+    "price": 108.97
+   },
+   "5301101938": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5301101938",
+    "options": {
+     "color": "blue",
+     "thickness": "4mm"
+    },
+    "price": 69.32
+   },
+   "6127279543": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6127279543",
+    "options": {
+     "color": "blue",
+     "thickness": "8mm"
+    },
+    "price": 26.51
+   },
+   "6993100026": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6993100026",
+    "options": {
+     "color": "blue",
+     "thickness": "6mm"
+    },
+    "price": 117.13
+   },
+   "7608302873": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7608302873",
+    "options": {
+     "color": "purple",
+     "thickness": "8mm"
+    },
+    "price": 39.05
+   },
+   "8053855035": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8053855035",
+    "options": {
+     "color": "green",
+     "thickness": "8mm"
+    },
+    "price": 116.38
+   }
+  }
+ },
+ "2997528820": {
+  "category": "electronics",
+  "name": "Noise-Cancelling Headphones",
+  "product_id": "2997528820",
+  "variants": {
+   "1672326865": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1672326865",
+    "options": {
+     "color": "navy",
+     "type": "over-ear",
+     "wireless": "yes"
+    },
+    "price": 387.94
+   },
+   "1878017598": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1878017598",
+    "options": {
+     "color": "silver",
+     "type": "over-ear",
+     "wireless": "no"
+    },
+    "price": 422.14
+   },
+   "2902227918": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2902227918",
+    "options": {
+     "color": "silver",
+     "type": "over-ear",
+     "wireless": "yes"
+    },
+    "price": 321.42
+   },
+   "3412524273": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3412524273",
+    "options": {
+     "color": "black",
+     "type": "on-ear",
+     "wireless": "yes"
+    },
+    "price": 448.14
+   },
+   "3478878384": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3478878384",
+    "options": {
+     "color": "navy",
+     "type": "over-ear",
+     "wireless": "no"
+    },
+    "price": 480.72
+   },
+   "3726167513": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3726167513",
+    "options": {
+     "color": "black",
+     "type": "on-ear",
+     "wireless": "no"
+    },
+    "price": 389.24
+   },
+   "5515058770": {
+    "available": true,
+    "clearance": true,
+    "item_id": "5515058770",
+    "options": {
+     "color": "black",
+     "type": "over-ear",
+     "wireless": "no"
+    },
+    "price": 381.1
+   },
+   "8395486205": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8395486205",
+    "options": {
+     "color": "silver",
+     "type": "on-ear",
+     "wireless": "no"
+    },
+    "price": 476.08
+   },
+   "8887180334": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8887180334",
+    "options": {
+     "color": "navy",
+     "type": "on-ear",
+     "wireless": "no"
+    },
+    "price": 317.81
+   },
+   "9868282880": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9868282880",
+    "options": {
+     "color": "silver",
+     "type": "on-ear",
+     "wireless": "yes"
+    },
+    "price": 471.47
+   }
+  }
+ },
+ "3159425947": {
+  "category": "electronics",
+  "name": "Action Camera",
+  "product_id": "3159425947",
+  "variants": {
+   "0273900009": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0273900009",
+    "options": {
+     "bundle": "with accessories",
+     "color": "black",
+     "resolution": "4K"
+    },
+    "price": 375.67
+   },
+   "1486546592": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1486546592",
+    "options": {
+     "bundle": "with accessories",
+     "color": "silver",
+     "resolution": "4K"
+    },
+    "price": 376.65
+   },
+   "1732904844": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1732904844",
+    "options": {
+     "bundle": "camera only",
+     "color": "black",
+     "resolution": "5K"
+    },
+    "price": 428.26
+   },
+   "1858369492": {
+    "available": false,
+    "clearance": false,
+    "item_id": "1858369492",
+    "options": {
+     "bundle": "with accessories",
+     "color": "silver",
+     "resolution": "5K"
+    },
+    "price": 347.77
+   },
+   "6241805788": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6241805788",
+    "options": {
+     "bundle": "with accessories",
+     "color": "black",
+     "resolution": "5K"
+    },
+    "price": 417.31
+   },
+   "8355032624": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8355032624",
+    "options": {
+     "bundle": "camera only",
+     "color": "black",
+     "resolution": "4K"
+    },
+    "price": 435.74
+   },
+   "9500324966": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9500324966",
+    "options": {
+     "bundle": "camera only",
+     "color": "silver",
+     "resolution": "5K"
+    },
+    "price": 404.85
+   },
+   "9722032711": {
+    "available": true,
+    "clearance": true,
+    "item_id": "9722032711",
+    "options": {
+     "bundle": "camera only",
+     "color": "silver",
+     "resolution": "4K"
+    },
+    "price": 428.07
+   }
+  }
+ },
+ "3307924402": {
+  "category": "electronics",
+  "name": "Wireless Mouse",
+  "product_id": "3307924402",
+  "variants": {
+   "0474395755": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0474395755",
+    "options": {
+     "color": "black",
+     "dpi": "16000",
+     "grip": "standard"
+    },
+    "price": 34.26
+   },
+   "1373537990": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1373537990",
+    "options": {
+     "color": "grey",
+     "dpi": "8000",
+     "grip": "ergonomic"
+    },
+    "price": 80.14
+   },
+   "1396245957": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1396245957",
+    "options": {
+     "color": "black",
+     "dpi": "8000",
+     "grip": "ergonomic"
+    },
+    "price": 39.13
+   },
+   "1485253888": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1485253888",
+    "options": {
+     "color": "white",
+     "dpi": "8000",
+     "grip": "standard"
+    },
+    "price": 62.91
+   },
+   "2803852808": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2803852808",
+    "options": {
+     "color": "grey",
+     "dpi": "16000",
+     "grip": "ergonomic"
+    },
+    "price": 59.28
+   },
+   "3933633875": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3933633875",
+    "options": {
+     "color": "grey",
+     "dpi": "16000",
+     "grip": "standard"
+    },
+    "price": 109.07
+   },
+   "5116372651": {
+    "available": false,
+    "clearance": false,
+    "item_id": "5116372651",
+    "options": {
+     "color": "white",
+     "dpi": "8000",
+     "grip": "ergonomic"
+    },
+    "price": 117.09
+   },
+   "5901092815": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5901092815",
+    "options": {
+     "color": "white",
+     "dpi": "16000",
+     "grip": "ergonomic"
+    },
+    "price": 95.58
+   },
+   "6617603137": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6617603137",
+    "options": {
+     "color": "black",
+     "dpi": "16000",
+     "grip": "ergonomic"
+    },
+    "price": 43.66
+   },
+   "6761222029": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6761222029",
+    "options": {
+     "color": "grey",
+     "dpi": "8000",
+     "grip": "standard"
+    },
+    "price": 129.06
+   },
+   "7777412154": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7777412154",
+    "options": {
+     "color": "black",
+     "dpi": "8000",
+     "grip": "standard"
+    },
+    "price": 80.04
+   }
+  }
+ },
+ "3412136224": {
+  "category": "electronics",
+  "name": "WiFi Router",
+  "product_id": "3412136224",
+  "variants": {
+   "0066384702": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0066384702",
+    "options": {
+     "bands": "tri-band",
+     "color": "black",
+     "speed": "AX5400"
+    },
+    "price": 357.58
+   },
+   "1765416362": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1765416362",
+    "options": {
+     "bands": "tri-band",
+     "color": "black",
+     "speed": "AX6600"
+    },
+    "price": 356.26
+   },
+   "3464627045": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3464627045",
+    "options": {
+     "bands": "dual-band",
+     "color": "white",
+     "speed": "AX5400"
+    },
+    "price": 355.32
+   },
+   "6001665941": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6001665941",
+    "options": {
+     "bands": "dual-band",
+     "color": "white",
+     "speed": "AX3000"
+    },
+    "price": 351.52
+   },
+   "6036996393": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6036996393",
+    "options": {
+     "bands": "dual-band",
+     "color": "black",
+     "speed": "AX5400"
+    },
+    "price": 435.73
+   },
+   "6770968250": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6770968250",
+    "options": {
+     "bands": "dual-band",
+     "color": "black",
+     "speed": "AX6600"
+    },
+    "price": 381.91
+   },
+   "6836732213": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6836732213",
+    "options": {
+     "bands": "tri-band",
+     "color": "white",
+     "speed": "AX5400"
+    },
+    "price": 396.79
+   },
+   "7104832385": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7104832385",
+    "options": {
+     "bands": "tri-band",
+     "color": "white",
+     "speed": "AX3000"
+    },
+    "price": 328.7
+   },
+   "7326819504": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7326819504",
+    "options": {
+     "bands": "dual-band",
+     "color": "black",
+     "speed": "AX3000"
+    },
+    "price": 360.76
+   },
+   "8325674827": {
+    "available": false,
+    "clearance": false,
+    "item_id": "8325674827",
+    "options": {
+     "bands": "tri-band",
+     "color": "black",
+     "speed": "AX3000"
+    },
+    "price": 375.63
+   },
+   "9783780585": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9783780585",
+    "options": {
+     "bands": "dual-band",
+     "color": "white",
+     "speed": "AX6600"
+    },
+    "price": 385.91
+   }
+  }
+ },
+ "3507752753": {
+  "category": "home",
+  "name": "Throw Blanket",
+  "product_id": "3507752753",
+  "variants": {
+   "0213023243": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0213023243",
+    "options": {
+     "color": "rust",
+     "material": "knit",
+     "size": "50x60"
+    },
+    "price": 27.22
+   },
+   "0425587239": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0425587239",
+    "options": {
+     "color": "rust",
+     "material": "fleece",
+     "size": "50x60"
+    },
+    "price": 131.83
+   },
+   "1113275185": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1113275185",
+    "options": {
+     "color": "rust",
+     "material": "fleece",
+     "size": "60x80"
+    },
+    "price": 61.82
+   },
+   "1192377391": {
+    "available": true,
+    "clearance": true,
+    "item_id": "1192377391",
+    "options": {
+     "color": "cream",
+     "material": "fleece",
+     "size": "60x80"
+    },
+    "price": 119.86
+   },
+   "3393544219": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3393544219",
+    "options": {
+     "color": "cream",
+     "material": "knit",
+     "size": "50x60"
+    },
+    "price": 77.32
+   },
+   "6527026514": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6527026514",
+    "options": {
+     "color": "charcoal",
+     "material": "knit",
+     "size": "60x80"
+    },
+    "price": 121.09
+   },
+   "6745014241": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6745014241",
+    "options": {
+     "color": "rust",
+     "material": "knit",
+     "size": "60x80"
+    },
+    "price": 32.29
+   },
+   "7523341082": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7523341082",
+    "options": {
+     "color": "cream",
+     "material": "fleece",
+     "size": "50x60"
+    },
+    "price": 126.72
+   },
+   "8026640341": {
+    "available": false,
+    "clearance": false,
+    "item_id": "8026640341",
+    "options": {
+     "color": "cream",
+     "material": "knit",
+     "size": "60x80"
+    },
+    "price": 117.23
+   },
+   "9030986840": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9030986840",
+    "options": {
+     "color": "charcoal",
+     "material": "fleece",
+     "size": "60x80"
+    },
+    "price": 33.06
+   },
+   "9617975985": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9617975985",
+    "options": {
+     "color": "charcoal",
+     "material": "fleece",
+     "size": "50x60"
+    },
+    "price": 64.69
+   }
+  }
+ },
+ "3909558495": {
+  "category": "home",
+  "name": "Bookshelf",
+  "product_id": "3909558495",
+  "variants": {
+   "1037971459": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1037971459",
+    "options": {
+     "finish": "oak",
+     "shelves": "3-tier",
+     "width": "24in"
+    },
+    "price": 114.46
+   },
+   "2128452237": {
+    "available": false,
+    "clearance": false,
+    "item_id": "2128452237",
+    "options": {
+     "finish": "black",
+     "shelves": "5-tier",
+     "width": "24in"
+    },
+    "price": 185.04
+   },
+   "3440329416": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3440329416",
+    "options": {
+     "finish": "black",
+     "shelves": "3-tier",
+     "width": "24in"
+    },
+    "price": 150.96
+   },
+   "4196741751": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4196741751",
+    "options": {
+     "finish": "oak",
+     "shelves": "3-tier",
+     "width": "31in"
+    },
+    "price": 98.75
+   },
+   "4314453888": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4314453888",
+    "options": {
+     "finish": "white",
+     "shelves": "5-tier",
+     "width": "24in"
+    },
+    "price": 139.81
+   },
+   "8256348077": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8256348077",
+    "options": {
+     "finish": "oak",
+     "shelves": "5-tier",
+     "width": "31in"
+    },
+    "price": 97.68
+   },
+   "9475671024": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9475671024",
+    "options": {
+     "finish": "black",
+     "shelves": "3-tier",
+     "width": "31in"
+    },
+    "price": 100.62
+   },
+   "9649860192": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9649860192",
+    "options": {
+     "finish": "white",
+     "shelves": "5-tier",
+     "width": "31in"
+    },
+    "price": 105.8
+   }
+  }
+ },
+ "4223381406": {
+  "category": "home",
+  "name": "Coffee Maker",
+  "product_id": "4223381406",
+  "variants": {
+   "2084651419": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2084651419",
+    "options": {
+     "capacity": "4-cup",
+     "color": "black",
+     "type": "french press"
+    },
+    "price": 220.54
+   },
+   "3840901536": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3840901536",
+    "options": {
+     "capacity": "12-cup",
+     "color": "black",
+     "type": "french press"
+    },
+    "price": 212.99
+   },
+   "4159150811": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4159150811",
+    "options": {
+     "capacity": "12-cup",
+     "color": "silver",
+     "type": "espresso"
+    },
+    "price": 275.73
+   },
+   "5307274807": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5307274807",
+    "options": {
+     "capacity": "4-cup",
+     "color": "silver",
+     "type": "drip"
+    },
+    "price": 256.86
+   },
+   "6243180733": {
+    "available": false,
+    "clearance": false,
+    "item_id": "6243180733",
+    "options": {
+     "capacity": "4-cup",
+     "color": "silver",
+     "type": "espresso"
+    },
+    "price": 270.77
+   },
+   "6896305854": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6896305854",
+    "options": {
+     "capacity": "12-cup",
+     "color": "silver",
+     "type": "french press"
+    },
+    "price": 217.43
+   },
+   "7926797359": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7926797359",
+    "options": {
+     "capacity": "12-cup",
+     "color": "black",
+     "type": "drip"
+    },
+    "price": 226.43
+   },
+   "8933834980": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8933834980",
+    "options": {
+     "capacity": "12-cup",
+     "color": "black",
+     "type": "espresso"
+    },
+    "price": 228.95
+   },
+   "9008717345": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9008717345",
+    "options": {
+     "capacity": "4-cup",
+     "color": "black",
+     "type": "drip"
+    },
+    "price": 285.32
+   }
+  }
+ },
+ "4303067394": {
+  "category": "apparel",
+  "name": "Ankle Socks Pack",
+  "product_id": "4303067394",
+  "variants": {
+   "0165039666": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0165039666",
+    "options": {
+     "color": "mixed",
+     "count": "6-pack",
+     "size": "M"
+    },
+    "price": 133.67
+   },
+   "0769520601": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0769520601",
+    "options": {
+     "color": "white",
+     "count": "6-pack",
+     "size": "M"
+    },
+    "price": 97.03
+   },
+   "1556589829": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1556589829",
+    "options": {
+     "color": "mixed",
+     "count": "3-pack",
+     "size": "L"
+    },
+    "price": 91.12
+   },
+   "2495222805": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2495222805",
+    "options": {
+     "color": "white",
+     "count": "6-pack",
+     "size": "L"
+    },
+    "price": 114.48
+   },
+   "3040463353": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3040463353",
+    "options": {
+     "color": "mixed",
+     "count": "3-pack",
+     "size": "M"
+    },
+    "price": 62.5
+   },
+   "3610921088": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3610921088",
+    "options": {
+     "color": "mixed",
+     "count": "6-pack",
+     "size": "L"
+    },
+    "price": 48.57
+   },
+   "3773567350": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3773567350",
+    "options": {
+     "color": "white",
+     "count": "3-pack",
+     "size": "L"
+    },
+    "price": 37.4
+   },
+   "3947048784": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3947048784",
+    "options": {
+     "color": "white",
+     "count": "3-pack",
+     "size": "M"
+    },
+    "price": 66.56
+   },
+   "5069521023": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5069521023",
+    "options": {
+     "color": "black",
+     "count": "6-pack",
+     "size": "M"
+    },
+    "price": 41.41
+   },
+   "5203480503": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5203480503",
+    "options": {
+     "color": "black",
+     "count": "3-pack",
+     "size": "M"
+    },
+    "price": 61.98
+   },
+   "5796470059": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5796470059",
+    "options": {
+     "color": "black",
+     "count": "6-pack",
+     "size": "L"
+    },
+    "price": 100.22
+   },
+   "8424087152": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8424087152",
+    "options": {
+     "color": "black",
+     "count": "3-pack",
+     "size": "L"
+    },
+    "price": 138.8
+   }
+  }
+ },
+ "4333978379": {
+  "category": "home",
+  "name": "Water Bottle",
+  "product_id": "4333978379",
+  "variants": {
+   "2137945188": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2137945188",
+    "options": {
+     "capacity": "750ml",
+     "color": "black",
+     "material": "glass"
+    },
+    "price": 101.6
+   },
+   "2461895744": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2461895744",
+    "options": {
+     "capacity": "750ml",
+     "color": "black",
+     "material": "plastic"
+    },
+    "price": 66.61
+   },
+   "2645252359": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2645252359",
+    "options": {
+     "capacity": "750ml",
+     "color": "blue",
+     "material": "steel"
+    },
+    "price": 126.43
+   },
+   "4239980629": {
+    "available": true,
+    "clearance": true,
+    "item_id": "4239980629",
+    "options": {
+     "capacity": "1000ml",
+     "color": "blue",
+     "material": "plastic"
+    },
+    "price": 98.77
+   },
+   "4276831306": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4276831306",
+    "options": {
+     "capacity": "750ml",
+     "color": "blue",
+     "material": "plastic"
+    },
+    "price": 119.64
+   },
+   "4829705720": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4829705720",
+    "options": {
+     "capacity": "1000ml",
+     "color": "black",
+     "material": "plastic"
+    },
+    "price": 134.59
+   },
+   "6475893268": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6475893268",
+    "options": {
+     "capacity": "500ml",
+     "color": "blue",
+     "material": "plastic"
+    },
+    "price": 26.04
+   },
+   "6807750018": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6807750018",
+    "options": {
+     "capacity": "500ml",
+     "color": "black",
+     "material": "glass"
+    },
+    "price": 68.37
+   },
+   "7901766947": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7901766947",
+    "options": {
+     "capacity": "500ml",
+     "color": "black",
+     "material": "steel"
+    },
+    "price": 41.77
+   },
+   "8315679045": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8315679045",
+    "options": {
+     "capacity": "500ml",
+     "color": "blue",
+     "material": "glass"
+    },
+    "price": 35.12
+   }
+  }
+ },
+ "4348068616": {
+  "category": "home",
+  "name": "Office Chair",
+  "product_id": "4348068616",
+  "variants": {
+   "1618093966": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1618093966",
+    "options": {
+     "armrest": "adjustable",
+     "color": "grey",
+     "material": "leather"
+    },
+    "price": 349.58
+   },
+   "3802482409": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3802482409",
+    "options": {
+     "armrest": "adjustable",
+     "color": "black",
+     "material": "mesh"
+    },
+    "price": 365.06
+   },
+   "4565674139": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4565674139",
+    "options": {
+     "armrest": "adjustable",
+     "color": "grey",
+     "material": "mesh"
+    },
+    "price": 393.29
+   },
+   "4656841470": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4656841470",
+    "options": {
+     "armrest": "fixed",
+     "color": "grey",
+     "material": "fabric"
+    },
+    "price": 317.65
+   },
+   "5522886423": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5522886423",
+    "options": {
+     "armrest": "fixed",
+     "color": "black",
+     "material": "mesh"
+    },
+    "price": 372.66
+   },
+   "6142216656": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6142216656",
+    "options": {
+     "armrest": "adjustable",
+     "color": "black",
+     "material": "fabric"
+    },
+    "price": 382.63
+   },
+   "6250248786": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6250248786",
+    "options": {
+     "armrest": "fixed",
+     "color": "black",
+     "material": "fabric"
+    },
+    "price": 449.24
+   },
+   "6524473957": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6524473957",
+    "options": {
+     "armrest": "fixed",
+     "color": "black",
+     "material": "leather"
+    },
+    "price": 384.57
+   },
+   "9459543181": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9459543181",
+    "options": {
+     "armrest": "adjustable",
+     "color": "grey",
+     "material": "fabric"
+    },
+    "price": 449.44
+   }
+  }
+ },
+ "4382238171": {
+  "category": "apparel",
+  "name": "Canvas Sneakers",
+  "product_id": "4382238171",
+  "variants": {
+   "2265610513": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2265610513",
+    "options": {
+     "color": "white",
+     "size": "10"
+    },
+    "price": 139.55
+   },
+   "3605624381": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3605624381",
+    "options": {
+     "color": "black",
+     "size": "10"
+    },
+    "price": 47.79
+   },
+   "4099105324": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4099105324",
+    "options": {
+     "color": "navy",
+     "size": "9"
+    },
+    "price": 30.76
+   },
+   "4998132743": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4998132743",
+    "options": {
+     "color": "red",
+     "size": "11"
+    },
+    "price": 91.56
+   },
+   "5577355214": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5577355214",
+    "options": {
+     "color": "black",
+     "size": "7"
+    },
+    "price": 118.04
+   },
+   "8718129670": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8718129670",
+    "options": {
+     "color": "white",
+     "size": "7"
+    },
+    "price": 28.88
+   },
+   "8814750713": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8814750713",
+    "options": {
+     "color": "black",
+     "size": "11"
+    },
+    "price": 80.75
+   },
+   "8916269515": {
+    "available": true,
+    "clearance": true,
+    "item_id": "8916269515",
+    "options": {
+     "color": "navy",
+     "size": "10"
+    },
+    "price": 108.68
+   },
+   "9582445832": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9582445832",
+    "options": {
+     "color": "red",
+     "size": "9"
+    },
+    "price": 133.74
+   }
+  }
+ },
+ "4552813246": {
+  "category": "home",
+  "name": "Standing Desk",
+  "product_id": "4552813246",
+  "variants": {
+   "1178716177": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1178716177",
+    "options": {
+     "finish": "white",
+     "width": "60in"
+    },
+    "price": 480.77
+   },
+   "1345117742": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1345117742",
+    "options": {
+     "finish": "walnut",
+     "width": "60in"
+    },
+    "price": 404.26
+   },
+   "3117477217": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3117477217",
+    "options": {
+     "finish": "oak",
+     "width": "55in"
+    },
+    "price": 426.73
+   },
+   "3670131457": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3670131457",
+    "options": {
+     "finish": "walnut",
+     "width": "55in"
+    },
+    "price": 396.8
+   },
+   "4001653407": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4001653407",
+    "options": {
+     "finish": "oak",
+     "width": "60in"
+    },
+    "price": 391.09
+   },
+   "5052309717": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5052309717",
+    "options": {
+     "finish": "oak",
+     "width": "48in"
+    },
+    "price": 350.14
+   },
+   "5801837399": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5801837399",
+    "options": {
+     "finish": "white",
+     "width": "55in"
+    },
+    "price": 470.99
+   },
+   "6106803828": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6106803828",
+    "options": {
+     "finish": "white",
+     "width": "48in"
+    },
+    "price": 469.96
+   },
+   "8070837925": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8070837925",
+    "options": {
+     "finish": "walnut",
+     "width": "48in"
+    },
+    "price": 336.83
+   }
+  }
+ },
+ "4577691524": {
+  "category": "electronics",
+  "name": "Digital Photo Frame",
+  "product_id": "4577691524",
+  "variants": {
+   "0031449192": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0031449192",
+    "options": {
+     "color": "black",
+     "size": "10in",
+     "storage": "32GB"
+    },
+    "price": 184.69
+   },
+   "0518772036": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0518772036",
+    "options": {
+     "color": "black",
+     "size": "8in",
+     "storage": "16GB"
+    },
+    "price": 160.65
+   },
+   "1843738171": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1843738171",
+    "options": {
+     "color": "wood",
+     "size": "8in",
+     "storage": "32GB"
+    },
+    "price": 153.28
+   },
+   "2752368299": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2752368299",
+    "options": {
+     "color": "black",
+     "size": "8in",
+     "storage": "32GB"
+    },
+    "price": 197.6
+   },
+   "4632778077": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4632778077",
+    "options": {
+     "color": "black",
+     "size": "10in",
+     "storage": "16GB"
+    },
+    "price": 190.07
+   },
+   "5155788346": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5155788346",
+    "options": {
+     "color": "wood",
+     "size": "10in",
+     "storage": "16GB"
+    },
+    "price": 130.91
+   },
+   "7372890257": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7372890257",
+    "options": {
+     "color": "wood",
+     "size": "8in",
+     "storage": "16GB"
+    },
+    "price": 168.07
+   },
+   "7475661250": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7475661250",
+    "options": {
+     "color": "wood",
+     "size": "10in",
+     "storage": "32GB"
+    },
+    "price": 97.16
+   }
+  }
+ },
+ "4640085997": {
+  "category": "electronics",
+  "name": "Wireless Earbuds",
+  "product_id": "4640085997",
+  "variants": {
+   "0154048684": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0154048684",
+    "options": {
+     "anc": "yes",
+     "case": "wireless charging",
+     "color": "white"
+    },
+    "price": 126.04
+   },
+   "0667172314": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0667172314",
+    "options": {
+     "anc": "yes",
+     "case": "wired",
+     "color": "white"
+    },
+    "price": 119.39
+   },
+   "2001192520": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2001192520",
+    "options": {
+     "anc": "yes",
+     "case": "wired",
+     "color": "green"
+    },
+    "price": 98.24
+   },
+   "2010195381": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2010195381",
+    "options": {
+     "anc": "yes",
+     "case": "wireless charging",
+     "color": "black"
+    },
+    "price": 187.37
+   },
+   "2010983263": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2010983263",
+    "options": {
+     "anc": "no",
+     "case": "wireless charging",
+     "color": "green"
+    },
+    "price": 149.42
+   },
+   "3180243325": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3180243325",
+    "options": {
+     "anc": "yes",
+     "case": "wireless charging",
+     "color": "green"
+    },
+    "price": 115.15
+   },
+   "6394369919": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6394369919",
+    "options": {
+     "anc": "yes",
+     "case": "wired",
+     "color": "black"
+    },
+    "price": 190.63
+   },
+   "6593687780": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6593687780",
+    "options": {
+     "anc": "no",
+     "case": "wired",
+     "color": "black"
+    },
+    "price": 185.04
+   },
+   "8692841407": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8692841407",
+    "options": {
+     "anc": "no",
+     "case": "wireless charging",
+     "color": "white"
+    },
+    "price": 170.12
+   }
+  }
+ },
+ "4804457658": {
+  "category": "electronics",
+  "name": "Smart Doorbell",
+  "product_id": "4804457658",
+  "variants": {
+   "0798016967": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0798016967",
+    "options": {
+     "color": "bronze",
+     "power": "wired",
+     "resolution": "2K"
+    },
+    "price": 322.44
+   },
+   "0889692913": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0889692913",
+    "options": {
+     "color": "bronze",
+     "power": "battery",
+     "resolution": "2K"
+    },
+    "price": 317.3
+   },
+   "2060011312": {
+    "available": true,
+    "clearance": true,
+    "item_id": "2060011312",
+    "options": {
+     "color": "bronze",
+     "power": "battery",
+     "resolution": "1080p"
+    },
+    "price": 397.38
+   },
+   "5354291068": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5354291068",
+    "options": {
+     "color": "black",
+     "power": "battery",
+     "resolution": "1080p"
+    },
+    "price": 473.84
+   },
+   "6992768117": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6992768117",
+    "options": {
+     "color": "bronze",
+     "power": "wired",
+     "resolution": "1080p"
+    },
+    "price": 349.27
+   },
+   "7212061052": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7212061052",
+    "options": {
+     "color": "black",
+     "power": "battery",
+     "resolution": "2K"
+    },
+    "price": 455.51
+   },
+   "8442605069": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8442605069",
+    "options": {
+     "color": "black",
+     "power": "wired",
+     "resolution": "1080p"
+    },
+    "price": 428.73
+   },
+   "8906410037": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8906410037",
+    "options": {
+     "color": "black",
+     "power": "wired",
+     "resolution": "2K"
+    },
+    "price": 422.61
+   }
+  }
+ },
+ "4937205214": {
+  "category": "apparel",
+  "name": "T-Shirt",
+  "product_id": "4937205214",
+  "variants": {
+   "0673490678": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0673490678",
+    "options": {
+     "color": "purple",
+     "material": "polyester",
+     "size": "L"
+    },
+    "price": 35.09
+   },
+   "0995902949": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0995902949",
+    "options": {
+     "color": "red",
+     "material": "cotton",
+     "size": "L"
+    },
+    "price": 74.28
+   },
+   "1526767495": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1526767495",
+    "options": {
+     "color": "purple",
+     "material": "cotton",
+     "size": "M"
+    },
+    "price": 58.62
+   },
+   "3333124599": {
+    "available": false,
+    "clearance": false,
+    "item_id": "3333124599",
+    "options": {
+     "color": "purple",
+     "material": "cotton",
+     "size": "XL"
+    },
+    "price": 66.27
+   },
+   "3666937405": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3666937405",
+    "options": {
+     "color": "black",
+     "material": "cotton",
+     "size": "M"
+    },
+    "price": 55.25
+   },
+   "5136984857": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5136984857",
+    "options": {
+     "color": "blue",
+     "material": "polyester",
+     "size": "S"
+    },
+    "price": 83.21
+   },
+   "6290429248": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6290429248",
+    "options": {
+     "color": "blue",
+     "material": "polyester",
+     "size": "L"
+    },
+    "price": 103.73
+   },
+   "7581887633": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7581887633",
+    "options": {
+     "color": "blue",
+     "material": "cotton",
+     "size": "XL"
+    },
+    "price": 60.59
+   },
+   "8230751571": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8230751571",
+    "options": {
+     "color": "blue",
+     "material": "polyester",
+     "size": "M"
+    },
+    "price": 42.96
+   }
+  }
+ },
+ "5183265523": {
+  "category": "apparel",
+  "name": "Denim Jeans",
+  "product_id": "5183265523",
+  "variants": {
+   "0327894882": {
+    "available": true,
+    "clearance": true,
+    "item_id": "0327894882",
+    "options": {
+     "color": "indigo",
+     "fit": "regular",
+     "size": "32"
+    },
+    "price": 155.32
+   },
+   "0600480461": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0600480461",
+    "options": {
+     "color": "indigo",
+     "fit": "regular",
+     "size": "30"
+    },
+    "price": 156.55
+   },
+   "1658689236": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1658689236",
+    "options": {
+     "color": "stonewash",
+     "fit": "slim",
+     "size": "32"
+    },
+    "price": 146.1
+   },
+   "3155935360": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3155935360",
+    "options": {
+     "color": "black",
+     "fit": "slim",
+     "size": "30"
+    },
+    "price": 97.69
+   },
+   "4545688965": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4545688965",
+    "options": {
+     "color": "black",
+     "fit": "regular",
+     "size": "32"
+    },
+    "price": 95.71
+   },
+   "4821458628": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4821458628",
+    "options": {
+     "color": "black",
+     "fit": "slim",
+     "size": "36"
+    },
+    "price": 125.44
+   },
+   "4974848968": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4974848968",
+    "options": {
+     "color": "stonewash",
+     "fit": "regular",
+     "size": "28"
+    },
+    "price": 181.7
+   },
+   "6675095701": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6675095701",
+    "options": {
+     "color": "stonewash",
+     "fit": "regular",
+     "size": "34"
+    },
+    "price": 150.15
+   },
+   "7674284269": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7674284269",
+    "options": {
+     "color": "indigo",
+     "fit": "regular",
+     "size": "28"
+    },
+    "price": 134.58
+   },
+   "7995812555": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7995812555",
+    "options": {
+     "color": "black",
+     "fit": "slim",
+     "size": "28"
+    },
+    "price": 197.73
+   },
+   "8383620991": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8383620991",
+    "options": {
+     "color": "indigo",
+     "fit": "slim",
+     "size": "32"
+    },
+    "price": 132.08
+   }
+  }
+ },
+ "5260181590": {
+  "category": "electronics",
+  "name": "Mechanical Keyboard",
+  "product_id": "5260181590",
+  "variants": {
+   "2684656321": {
+    "available": true,
+    "clearance": true,
+    "item_id": "2684656321",
+    "options": {
+     "backlight": "RGB",
+     "size": "full",
+     "switch": "linear"
+    },
+    "price": 225.39
+   },
+   "4236671276": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4236671276",
+    "options": {
+     "backlight": "none",
+     "size": "compact",
+     "switch": "clicky"
+    },
+    "price": 253.76
+   },
+   "5749118625": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5749118625",
+    "options": {
+     "backlight": "RGB",
+     "size": "tenkeyless",
+     "switch": "tactile"
+    },
+    "price": 223.55
+   },
+   "6507529170": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6507529170",
+    "options": {
+     "backlight": "RGB",
+     "size": "compact",
+     "switch": "tactile"
+    },
+    "price": 228.58
+   },
+   "7114710497": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7114710497",
+    "options": {
+     "backlight": "white",
+     "size": "tenkeyless",
+     "switch": "linear"
+    },
+    "price": 233.63
+   },
+   "7543231948": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7543231948",
+    "options": {
+     "backlight": "white",
+     "size": "full",
+     "switch": "tactile"
+    },
+    "price": 249.63
+   },
+   "7601895559": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7601895559",
+    "options": {
+     "backlight": "none",
+     "size": "full",
+     "switch": "clicky"
+    },
+    "price": 249.75
+   },
+   "8190937865": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8190937865",
+    "options": {
+     "backlight": "none",
+     "size": "full",
+     "switch": "linear"
+    },
+    "price": 247.39
+   },
+   "8194821993": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8194821993",
+    "options": {
+     "backlight": "RGB",
+     "size": "tenkeyless",
+     "switch": "clicky"
+    },
+    "price": 240.3
+   }
+  }
+ },
+ "5715469994": {
+  "category": "home",
+  "name": "Scented Candle Set",
+  "product_id": "5715469994",
+  "variants": {
+   "0789078907": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0789078907",
+    "options": {
+     "count": "4-pack",
+     "scent": "cedar",
+     "size": "large jar"
+    },
+    "price": 75.48
+   },
+   "0956820882": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0956820882",
+    "options": {
+     "count": "4-pack",
+     "scent": "citrus",
+     "size": "small jar"
+    },
+    "price": 82.13
+   },
+   "2123953516": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2123953516",
+    "options": {
+     "count": "2-pack",
+     "scent": "citrus",
+     "size": "small jar"
+    },
+    "price": 62.41
+   },
+   "2630766129": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2630766129",
+    "options": {
+     "count": "4-pack",
+     "scent": "cedar",
+     "size": "small jar"
+    },
+    "price": 39.53
+   },
+   "3064112881": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3064112881",
+    "options": {
+     "count": "2-pack",
+     "scent": "cedar",
+     "size": "small jar"
+    },
+    "price": 113.88
+   },
+   "4010210052": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4010210052",
+    "options": {
+     "count": "4-pack",
+     "scent": "citrus",
+     "size": "large jar"
+    },
+    "price": 37.92
+   },
+   "6208805639": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6208805639",
+    "options": {
+     "count": "2-pack",
+     "scent": "vanilla",
+     "size": "large jar"
+    },
+    "price": 68.76
+   },
+   "6473702222": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6473702222",
+    "options": {
+     "count": "4-pack",
+     "scent": "vanilla",
+     "size": "large jar"
+    },
+    "price": 116.28
+   },
+   "6579925634": {
+    "available": true,
+    "clearance": true,
+    "item_id": "6579925634",
+    "options": {
+     "count": "4-pack",
+     "scent": "vanilla",
+     "size": "small jar"
+    },
+    "price": 139.25
+   },
+   "7260133022": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7260133022",
+    "options": {
+     "count": "2-pack",
+     "scent": "cedar",
+     "size": "large jar"
+    },
+    "price": 60.78
+   }
+  }
+ },
+ "6133310014": {
+  "category": "electronics",
+  "name": "Gaming Controller",
+  "product_id": "6133310014",
+  "variants": {
+   "1942608340": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1942608340",
+    "options": {
+     "color": "red",
+     "connectivity": "wireless",
+     "edition": "standard"
+    },
+    "price": 95.46
+   },
+   "4337211781": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4337211781",
+    "options": {
+     "color": "white",
+     "connectivity": "wireless",
+     "edition": "pro"
+    },
+    "price": 160.93
+   },
+   "4405598749": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4405598749",
+    "options": {
+     "color": "white",
+     "connectivity": "wireless",
+     "edition": "standard"
+    },
+    "price": 173.29
+   },
+   "4932573834": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4932573834",
+    "options": {
+     "color": "red",
+     "connectivity": "wired",
+     "edition": "standard"
+    },
+    "price": 126.66
+   },
+   "5166160534": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5166160534",
+    "options": {
+     "color": "white",
+     "connectivity": "wired",
+     "edition": "standard"
+    },
+    "price": 122.64
+   },
+   "5958278527": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5958278527",
+    "options": {
+     "color": "black",
+     "connectivity": "wired",
+     "edition": "pro"
+    },
+    "price": 141.07
+   },
+   "6068157089": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6068157089",
+    "options": {
+     "color": "black",
+     "connectivity": "wireless",
+     "edition": "standard"
+    },
+    "price": 117.74
+   },
+   "7172795849": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7172795849",
+    "options": {
+     "color": "red",
+     "connectivity": "wired",
+     "edition": "pro"
+    },
+    "price": 194.11
+   },
+   "8826372899": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8826372899",
+    "options": {
+     "color": "red",
+     "connectivity": "wireless",
+     "edition": "pro"
+    },
+    "price": 162.86
+   },
+   "9223598523": {
+    "available": true,
+    "clearance": true,
+    "item_id": "9223598523",
+    "options": {
+     "color": "black",
+     "connectivity": "wired",
+     "edition": "standard"
+    },
+    "price": 129.45
+   }
+  }
+ },
+ "6203984963": {
+  "category": "apparel",
+  "name": "Puffer Vest",
+  "product_id": "6203984963",
+  "variants": {
+   "1858382532": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1858382532",
+    "options": {
+     "color": "black",
+     "fill": "synthetic",
+     "size": "S"
+    },
+    "price": 223.59
+   },
+   "3958564083": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3958564083",
+    "options": {
+     "color": "navy",
+     "fill": "synthetic",
+     "size": "L"
+    },
+    "price": 212.06
+   },
+   "4092484543": {
+    "available": false,
+    "clearance": false,
+    "item_id": "4092484543",
+    "options": {
+     "color": "black",
+     "fill": "down",
+     "size": "S"
+    },
+    "price": 232.17
+   },
+   "6155884714": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6155884714",
+    "options": {
+     "color": "navy",
+     "fill": "synthetic",
+     "size": "XL"
+    },
+    "price": 242.06
+   },
+   "6516849518": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6516849518",
+    "options": {
+     "color": "olive",
+     "fill": "down",
+     "size": "XL"
+    },
+    "price": 262.48
+   },
+   "7177282025": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7177282025",
+    "options": {
+     "color": "olive",
+     "fill": "down",
+     "size": "M"
+    },
+    "price": 249.15
+   },
+   "7187132649": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7187132649",
+    "options": {
+     "color": "navy",
+     "fill": "down",
+     "size": "S"
+    },
+    "price": 271.36
+   },
+   "7205656162": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7205656162",
+    "options": {
+     "color": "navy",
+     "fill": "synthetic",
+     "size": "S"
+    },
+    "price": 265.4
+   },
+   "9447589793": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9447589793",
+    "options": {
+     "color": "navy",
+     "fill": "down",
+     "size": "M"
+    },
+    "price": 287.96
+   }
+  }
+ },
+ "6447392742": {
+  "category": "apparel",
+  "name": "Winter Gloves",
+  "product_id": "6447392742",
+  "variants": {
+   "0028939610": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0028939610",
+    "options": {
+     "color": "black",
+     "size": "L/XL",
+     "touchscreen": "yes"
+    },
+    "price": 30.56
+   },
+   "1202428512": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1202428512",
+    "options": {
+     "color": "red",
+     "size": "L/XL",
+     "touchscreen": "yes"
+    },
+    "price": 78.42
+   },
+   "3142044103": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3142044103",
+    "options": {
+     "color": "black",
+     "size": "L/XL",
+     "touchscreen": "no"
+    },
+    "price": 83.51
+   },
+   "5111728602": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5111728602",
+    "options": {
+     "color": "red",
+     "size": "S/M",
+     "touchscreen": "yes"
+    },
+    "price": 50.75
+   },
+   "6165650933": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6165650933",
+    "options": {
+     "color": "grey",
+     "size": "L/XL",
+     "touchscreen": "yes"
+    },
+    "price": 116.09
+   },
+   "6466586626": {
+    "available": true,
+    "clearance": true,
+    "item_id": "6466586626",
+    "options": {
+     "color": "grey",
+     "size": "S/M",
+     "touchscreen": "no"
+    },
+    "price": 112.51
+   },
+   "6854050784": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6854050784",
+    "options": {
+     "color": "black",
+     "size": "S/M",
+     "touchscreen": "yes"
+    },
+    "price": 88.11
+   },
+   "8288185715": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8288185715",
+    "options": {
+     "color": "red",
+     "size": "S/M",
+     "touchscreen": "no"
+    },
+    "price": 136.61
+   },
+   "9035072624": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9035072624",
+    "options": {
+     "color": "grey",
+     "size": "L/XL",
+     "touchscreen": "no"
+    },
+    "price": 103.79
+   }
+  }
+ },
+ "6583976413": {
+  "category": "apparel",
+  "name": "Leather Belt",
+  "product_id": "6583976413",
+  "variants": {
+   "0093741261": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0093741261",
+    "options": {
+     "buckle": "brass",
+     "color": "brown",
+     "size": "34"
+    },
+    "price": 96.43
+   },
+   "0711422846": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0711422846",
+    "options": {
+     "buckle": "brass",
+     "color": "brown",
+     "size": "36"
+    },
+    "price": 121.16
+   },
+   "3915255041": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3915255041",
+    "options": {
+     "buckle": "silver",
+     "color": "brown",
+     "size": "36"
+    },
+    "price": 52.52
+   },
+   "3971259063": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3971259063",
+    "options": {
+     "buckle": "silver",
+     "color": "brown",
+     "size": "32"
+    },
+    "price": 30.43
+   },
+   "8857095158": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8857095158",
+    "options": {
+     "buckle": "brass",
+     "color": "black",
+     "size": "32"
+    },
+    "price": 62.65
+   },
+   "8881817682": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8881817682",
+    "options": {
+     "buckle": "silver",
+     "color": "black",
+     "size": "36"
+    },
+    "price": 136.32
+   },
+   "8918991617": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8918991617",
+    "options": {
+     "buckle": "brass",
+     "color": "black",
+     "size": "38"
+    },
+    "price": 40.44
+   },
+   "9103453709": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9103453709",
+    "options": {
+     "buckle": "silver",
+     "color": "black",
+     "size": "38"
+    },
+    "price": 75.59
+   },
+   "9484700527": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9484700527",
+    "options": {
+     "buckle": "silver",
+     "color": "black",
+     "size": "32"
+    },
+    "price": 82.7
+   }
+  }
+ },
+ "6655137811": {
+  "category": "home",
+  "name": "Air Purifier",
+  "product_id": "6655137811",
+  "variants": {
+   "0487295525": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0487295525",
+    "options": {
+     "color": "white",
+     "coverage": "large room",
+     "filter": "HEPA"
+    },
+    "price": 263.88
+   },
+   "1306930224": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1306930224",
+    "options": {
+     "color": "white",
+     "coverage": "large room",
+     "filter": "HEPA+carbon"
+    },
+    "price": 231.24
+   },
+   "2528087577": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2528087577",
+    "options": {
+     "color": "grey",
+     "coverage": "small room",
+     "filter": "HEPA+carbon"
+    },
+    "price": 271.45
+   },
+   "3553111500": {
+    "available": true,
+    "clearance": true,
+    "item_id": "3553111500",
+    "options": {
+     "color": "grey",
+     "coverage": "small room",
+     "filter": "HEPA"
+    },
+    "price": 229.26
+   },
+   "4763237185": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4763237185",
+    "options": {
+     "color": "white",
+     "coverage": "small room",
+     "filter": "HEPA+carbon"
+    },
+    "price": 272.96
+   },
+   "5354545956": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5354545956",
+    "options": {
+     "color": "grey",
+     "coverage": "large room",
+     "filter": "HEPA+carbon"
+    },
+    "price": 240.75
+   },
+   "5664238505": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5664238505",
+    "options": {
+     "color": "grey",
+     "coverage": "large room",
+     "filter": "HEPA"
+    },
+    "price": 280.09
+   },
+   "6003950490": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6003950490",
+    "options": {
+     "color": "white",
+     "coverage": "small room",
+     "filter": "HEPA"
+    },
+    "price": 280.35
+   }
+  }
+ },
+ "6797016877": {
+  "category": "electronics",
+  "name": "Webcam",
+  "product_id": "6797016877",
+  "variants": {
+   "1800239042": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1800239042",
+    "options": {
+     "color": "silver",
+     "fov": "90deg",
+     "resolution": "4K"
+    },
+    "price": 97.04
+   },
+   "2603092600": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2603092600",
+    "options": {
+     "color": "black",
+     "fov": "90deg",
+     "resolution": "4K"
+    },
+    "price": 46.17
+   },
+   "3653705656": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3653705656",
+    "options": {
+     "color": "black",
+     "fov": "78deg",
+     "resolution": "4K"
+    },
+    "price": 47.78
+   },
+   "4197923760": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4197923760",
+    "options": {
+     "color": "silver",
+     "fov": "90deg",
+     "resolution": "1080p"
+    },
+    "price": 134.11
+   },
+   "4813734337": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4813734337",
+    "options": {
+     "color": "black",
+     "fov": "78deg",
+     "resolution": "1080p"
+    },
+    "price": 50.47
+   },
+   "8306400376": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8306400376",
+    "options": {
+     "color": "silver",
+     "fov": "78deg",
+     "resolution": "1080p"
+    },
+    "price": 34.33
+   },
+   "8611148936": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8611148936",
+    "options": {
+     "color": "black",
+     "fov": "90deg",
+     "resolution": "1080p"
+    },
+    "price": 55.0
+   },
+   "9008474537": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9008474537",
+    "options": {
+     "color": "silver",
+     "fov": "78deg",
+     "resolution": "4K"
+    },
+    "price": 85.52
+   }
+  }
+ },
+ "6912288101": {
+  "category": "apparel",
+  "name": "Wool Sweater",
+  "product_id": "6912288101",
+  "variants": {
+   "0405232134": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0405232134",
+    "options": {
+     "color": "forest",
+     "knit": "cable",
+     "size": "L"
+    },
+    "price": 253.41
+   },
+   "1658363745": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1658363745",
+    "options": {
+     "color": "cream",
+     "knit": "cable",
+     "size": "S"
+    },
+    "price": 230.03
+   },
+   "1818460924": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1818460924",
+    "options": {
+     "color": "charcoal",
+     "knit": "ribbed",
+     "size": "S"
+    },
+    "price": 213.14
+   },
+   "2877325536": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2877325536",
+    "options": {
+     "color": "forest",
+     "knit": "ribbed",
+     "size": "S"
+    },
+    "price": 240.64
+   },
+   "3302925074": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3302925074",
+    "options": {
+     "color": "cream",
+     "knit": "ribbed",
+     "size": "S"
+    },
+    "price": 243.8
+   },
+   "4685158656": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4685158656",
+    "options": {
+     "color": "charcoal",
+     "knit": "ribbed",
+     "size": "XL"
+    },
+    "price": 261.5
+   },
+   "4713693646": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4713693646",
+    "options": {
+     "color": "forest",
+     "knit": "cable",
+     "size": "M"
+    },
+    "price": 278.52
+   },
+   "7031225620": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7031225620",
+    "options": {
+     "color": "charcoal",
+     "knit": "ribbed",
+     "size": "L"
+    },
+    "price": 285.84
+   },
+   "7958369832": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7958369832",
+    "options": {
+     "color": "forest",
+     "knit": "cable",
+     "size": "XL"
+    },
+    "price": 278.3
+   },
+   "9347833724": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9347833724",
+    "options": {
+     "color": "forest",
+     "knit": "ribbed",
+     "size": "M"
+    },
+    "price": 257.29
+   },
+   "9600369070": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9600369070",
+    "options": {
+     "color": "cream",
+     "knit": "cable",
+     "size": "M"
+    },
+    "price": 259.13
+   }
+  }
+ },
+ "7128038741": {
+  "category": "apparel",
+  "name": "Backpack",
+  "product_id": "7128038741",
+  "variants": {
+   "1153569041": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1153569041",
+    "options": {
+     "color": "navy",
+     "material": "canvas",
+     "size": "medium"
+    },
+    "price": 195.18
+   },
+   "1197423293": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1197423293",
+    "options": {
+     "color": "black",
+     "material": "canvas",
+     "size": "large"
+    },
+    "price": 156.21
+   },
+   "1779841116": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1779841116",
+    "options": {
+     "color": "grey",
+     "material": "nylon",
+     "size": "medium"
+    },
+    "price": 187.87
+   },
+   "2214480013": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2214480013",
+    "options": {
+     "color": "black",
+     "material": "nylon",
+     "size": "medium"
+    },
+    "price": 122.45
+   },
+   "3018608554": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3018608554",
+    "options": {
+     "color": "navy",
+     "material": "nylon",
+     "size": "medium"
+    },
+    "price": 183.4
+   },
+   "5025990587": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5025990587",
+    "options": {
+     "color": "grey",
+     "material": "nylon",
+     "size": "small"
+    },
+    "price": 196.72
+   },
+   "6349222832": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6349222832",
+    "options": {
+     "color": "grey",
+     "material": "canvas",
+     "size": "large"
+    },
+    "price": 115.65
+   },
+   "7106724329": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7106724329",
+    "options": {
+     "color": "grey",
+     "material": "nylon",
+     "size": "large"
+    },
+    "price": 182.32
+   },
+   "7780882031": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7780882031",
+    "options": {
+     "color": "navy",
+     "material": "canvas",
+     "size": "small"
+    },
+    "price": 118.49
+   },
+   "8582708425": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8582708425",
+    "options": {
+     "color": "black",
+     "material": "canvas",
+     "size": "small"
+    },
+    "price": 140.7
+   },
+   "9978371512": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9978371512",
+    "options": {
+     "color": "black",
+     "material": "nylon",
+     "size": "large"
+    },
+    "price": 99.74
+   }
+  }
+ },
+ "7316750637": {
+  "category": "home",
+  "name": "Weighted Blanket",
+  "product_id": "7316750637",
+  "variants": {
+   "0932313149": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0932313149",
+    "options": {
+     "color": "grey",
+     "size": "twin",
+     "weight": "20lb"
+    },
+    "price": 278.92
+   },
+   "1314139040": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1314139040",
+    "options": {
+     "color": "grey",
+     "size": "queen",
+     "weight": "20lb"
+    },
+    "price": 286.09
+   },
+   "1459086598": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1459086598",
+    "options": {
+     "color": "navy",
+     "size": "queen",
+     "weight": "15lb"
+    },
+    "price": 274.65
+   },
+   "3916038138": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3916038138",
+    "options": {
+     "color": "grey",
+     "size": "twin",
+     "weight": "12lb"
+    },
+    "price": 250.57
+   },
+   "5156127945": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5156127945",
+    "options": {
+     "color": "navy",
+     "size": "twin",
+     "weight": "12lb"
+    },
+    "price": 241.26
+   },
+   "7774951879": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7774951879",
+    "options": {
+     "color": "navy",
+     "size": "queen",
+     "weight": "12lb"
+    },
+    "price": 236.97
+   },
+   "8250537147": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8250537147",
+    "options": {
+     "color": "grey",
+     "size": "twin",
+     "weight": "15lb"
+    },
+    "price": 259.84
+   },
+   "8566019614": {
+    "available": true,
+    "clearance": true,
+    "item_id": "8566019614",
+    "options": {
+     "color": "grey",
+     "size": "queen",
+     "weight": "15lb"
+    },
+    "price": 251.09
+   },
+   "9573825393": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9573825393",
+    "options": {
+     "color": "navy",
+     "size": "queen",
+     "weight": "20lb"
+    },
+    "price": 234.82
+   }
+  }
+ },
+ "7511253287": {
+  "category": "electronics",
+  "name": "USB-C Hub",
+  "product_id": "7511253287",
+  "variants": {
+   "2720429355": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2720429355",
+    "options": {
+     "cable": "short",
+     "color": "silver",
+     "ports": "8-in-1"
+    },
+    "price": 77.99
+   },
+   "3606071043": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3606071043",
+    "options": {
+     "cable": "long",
+     "color": "grey",
+     "ports": "6-in-1"
+    },
+    "price": 110.94
+   },
+   "5618365461": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5618365461",
+    "options": {
+     "cable": "short",
+     "color": "silver",
+     "ports": "11-in-1"
+    },
+    "price": 30.66
+   },
+   "7358735570": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7358735570",
+    "options": {
+     "cable": "long",
+     "color": "silver",
+     "ports": "8-in-1"
+    },
+    "price": 97.64
+   },
+   "8526114913": {
+    "available": true,
+    "clearance": true,
+    "item_id": "8526114913",
+    "options": {
+     "cable": "long",
+     "color": "silver",
+     "ports": "11-in-1"
+    },
+    "price": 36.09
+   },
+   "9103177646": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9103177646",
+    "options": {
+     "cable": "long",
+     "color": "grey",
+     "ports": "11-in-1"
+    },
+    "price": 118.7
+   },
+   "9183623610": {
+    "available": false,
+    "clearance": false,
+    "item_id": "9183623610",
+    "options": {
+     "cable": "short",
+     "color": "grey",
+     "ports": "6-in-1"
+    },
+    "price": 80.39
+   },
+   "9554590454": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9554590454",
+    "options": {
+     "cable": "long",
+     "color": "grey",
+     "ports": "8-in-1"
+    },
+    "price": 59.2
+   }
+  }
+ },
+ "7631405730": {
+  "category": "apparel",
+  "name": "Hiking Boots",
+  "product_id": "7631405730",
+  "variants": {
+   "0226407959": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0226407959",
+    "options": {
+     "color": "black",
+     "size": "9",
+     "waterproof": "yes"
+    },
+    "price": 346.15
+   },
+   "0594996572": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0594996572",
+    "options": {
+     "color": "black",
+     "size": "12",
+     "waterproof": "yes"
+    },
+    "price": 365.37
+   },
+   "1200624528": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1200624528",
+    "options": {
+     "color": "black",
+     "size": "10",
+     "waterproof": "no"
+    },
+    "price": 466.46
+   },
+   "1858768269": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1858768269",
+    "options": {
+     "color": "brown",
+     "size": "11",
+     "waterproof": "no"
+    },
+    "price": 424.68
+   },
+   "2149562553": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2149562553",
+    "options": {
+     "color": "grey",
+     "size": "10",
+     "waterproof": "no"
+    },
+    "price": 378.18
+   },
+   "5803371295": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5803371295",
+    "options": {
+     "color": "brown",
+     "size": "8",
+     "waterproof": "yes"
+    },
+    "price": 412.65
+   },
+   "7385051494": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7385051494",
+    "options": {
+     "color": "grey",
+     "size": "8",
+     "waterproof": "yes"
+    },
+    "price": 430.82
+   },
+   "7610773350": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7610773350",
+    "options": {
+     "color": "black",
+     "size": "12",
+     "waterproof": "no"
+    },
+    "price": 315.92
+   },
+   "7672499123": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7672499123",
+    "options": {
+     "color": "black",
+     "size": "9",
+     "waterproof": "no"
+    },
+    "price": 340.27
+   },
+   "8543001960": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8543001960",
+    "options": {
+     "color": "black",
+     "size": "11",
+     "waterproof": "yes"
+    },
+    "price": 484.81
+   },
+   "9862410865": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9862410865",
+    "options": {
+     "color": "grey",
+     "size": "9",
+     "waterproof": "no"
+    },
+    "price": 321.6
+   }
+  }
+ },
+ "7723267938": {
+  "category": "electronics",
+  "name": "Portable Charger",
+  "product_id": "7723267938",
+  "variants": {
+   "0787161682": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0787161682",
+    "options": {
+     "capacity": "20000mAh",
+     "color": "white",
+     "ports": "dual"
+    },
+    "price": 98.51
+   },
+   "0930565294": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0930565294",
+    "options": {
+     "capacity": "10000mAh",
+     "color": "white",
+     "ports": "single"
+    },
+    "price": 33.96
+   },
+   "1264644604": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1264644604",
+    "options": {
+     "capacity": "26800mAh",
+     "color": "black",
+     "ports": "single"
+    },
+    "price": 110.71
+   },
+   "3750431039": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3750431039",
+    "options": {
+     "capacity": "10000mAh",
+     "color": "white",
+     "ports": "dual"
+    },
+    "price": 136.89
+   },
+   "4388317010": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4388317010",
+    "options": {
+     "capacity": "26800mAh",
+     "color": "white",
+     "ports": "dual"
+    },
+    "price": 79.6
+   },
+   "5660536630": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5660536630",
+    "options": {
+     "capacity": "26800mAh",
+     "color": "black",
+     "ports": "dual"
+    },
+    "price": 74.93
+   },
+   "7323324935": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7323324935",
+    "options": {
+     "capacity": "10000mAh",
+     "color": "black",
+     "ports": "single"
+    },
+    "price": 32.45
+   },
+   "9315827940": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9315827940",
+    "options": {
+     "capacity": "20000mAh",
+     "color": "white",
+     "ports": "single"
+    },
+    "price": 37.16
+   },
+   "9953055203": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9953055203",
+    "options": {
+     "capacity": "20000mAh",
+     "color": "black",
+     "ports": "dual"
+    },
+    "price": 139.99
+   }
+  }
+ },
+ "7962039317": {
+  "category": "home",
+  "name": "Cookware Set",
+  "product_id": "7962039317",
+  "variants": {
+   "0375465840": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0375465840",
+    "options": {
+     "finish": "black",
+     "material": "nonstick",
+     "pieces": "10-piece"
+    },
+    "price": 453.31
+   },
+   "1966714837": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1966714837",
+    "options": {
+     "finish": "black",
+     "material": "nonstick",
+     "pieces": "8-piece"
+    },
+    "price": 368.87
+   },
+   "2811528962": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2811528962",
+    "options": {
+     "finish": "black",
+     "material": "stainless",
+     "pieces": "8-piece"
+    },
+    "price": 354.34
+   },
+   "3518857841": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3518857841",
+    "options": {
+     "finish": "silver",
+     "material": "stainless",
+     "pieces": "10-piece"
+    },
+    "price": 329.65
+   },
+   "4208217904": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4208217904",
+    "options": {
+     "finish": "black",
+     "material": "stainless",
+     "pieces": "10-piece"
+    },
+    "price": 431.66
+   },
+   "5140583223": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5140583223",
+    "options": {
+     "finish": "silver",
+     "material": "stainless",
+     "pieces": "12-piece"
+    },
+    "price": 395.42
+   },
+   "5681261004": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5681261004",
+    "options": {
+     "finish": "silver",
+     "material": "nonstick",
+     "pieces": "12-piece"
+    },
+    "price": 478.32
+   },
+   "7658759017": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7658759017",
+    "options": {
+     "finish": "silver",
+     "material": "stainless",
+     "pieces": "8-piece"
+    },
+    "price": 326.25
+   },
+   "8437932344": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8437932344",
+    "options": {
+     "finish": "black",
+     "material": "nonstick",
+     "pieces": "12-piece"
+    },
+    "price": 334.28
+   }
+  }
+ },
+ "8210565518": {
+  "category": "home",
+  "name": "Wristwatch",
+  "product_id": "8210565518",
+  "variants": {
+   "0140425582": {
+    "available": true,
+    "clearance": true,
+    "item_id": "0140425582",
+    "options": {
+     "band": "leather",
+     "color": "gold"
+    },
+    "price": 335.6
+   },
+   "1755306313": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1755306313",
+    "options": {
+     "band": "silicone",
+     "color": "silver"
+    },
+    "price": 458.53
+   },
+   "2027106419": {
+    "available": false,
+    "clearance": false,
+    "item_id": "2027106419",
+    "options": {
+     "band": "silicone",
+     "color": "gold"
+    },
+    "price": 417.98
+   },
+   "4721446627": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4721446627",
+    "options": {
+     "band": "metal",
+     "color": "gold"
+    },
+    "price": 493.02
+   },
+   "5490311294": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5490311294",
+    "options": {
+     "band": "silicone",
+     "color": "black"
+    },
+    "price": 432.33
+   },
+   "8015128178": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8015128178",
+    "options": {
+     "band": "leather",
+     "color": "silver"
+    },
+    "price": 437.19
+   },
+   "8133404612": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8133404612",
+    "options": {
+     "band": "metal",
+     "color": "black"
+    },
+    "price": 422.96
+   },
+   "9246354013": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9246354013",
+    "options": {
+     "band": "metal",
+     "color": "silver"
+    },
+    "price": 428.61
+   },
+   "9921916411": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9921916411",
+    "options": {
+     "band": "leather",
+     "color": "black"
+    },
+    "price": 444.98
+   }
+  }
+ },
+ "8452984153": {
+  "category": "electronics",
+  "name": "Fitness Tracker",
+  "product_id": "8452984153",
+  "variants": {
+   "1221387837": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1221387837",
+    "options": {
+     "band": "fabric",
+     "color": "teal",
+     "gps": "yes"
+    },
+    "price": 190.16
+   },
+   "3044516691": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3044516691",
+    "options": {
+     "band": "fabric",
+     "color": "teal",
+     "gps": "no"
+    },
+    "price": 132.87
+   },
+   "3143667640": {
+    "available": true,
+    "clearance": true,
+    "item_id": "3143667640",
+    "options": {
+     "band": "fabric",
+     "color": "coral",
+     "gps": "no"
+    },
+    "price": 108.36
+   },
+   "3549306668": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3549306668",
+    "options": {
+     "band": "silicone",
+     "color": "black",
+     "gps": "yes"
+    },
+    "price": 117.05
+   },
+   "4507495288": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4507495288",
+    "options": {
+     "band": "fabric",
+     "color": "black",
+     "gps": "yes"
+    },
+    "price": 161.11
+   },
+   "5356068831": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5356068831",
+    "options": {
+     "band": "silicone",
+     "color": "coral",
+     "gps": "yes"
+    },
+    "price": 100.19
+   },
+   "5444463478": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5444463478",
+    "options": {
+     "band": "silicone",
+     "color": "teal",
+     "gps": "no"
+    },
+    "price": 165.23
+   },
+   "5651505561": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5651505561",
+    "options": {
+     "band": "fabric",
+     "color": "coral",
+     "gps": "yes"
+    },
+    "price": 193.69
+   },
+   "6404104234": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6404104234",
+    "options": {
+     "band": "silicone",
+     "color": "black",
+     "gps": "no"
+    },
+    "price": 140.81
+   },
+   "6792470822": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6792470822",
+    "options": {
+     "band": "silicone",
+     "color": "coral",
+     "gps": "no"
+    },
+    "price": 144.58
+   },
+   "7628331258": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7628331258",
+    "options": {
+     "band": "silicone",
+     "color": "teal",
+     "gps": "yes"
+    },
+    "price": 104.56
+   }
+  }
+ },
+ "8485295541": {
+  "category": "home",
+  "name": "Desk Lamp",
+  "product_id": "8485295541",
+  "variants": {
+   "0170398155": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0170398155",
+    "options": {
+     "brightness": "bright",
+     "color": "white",
+     "power": "rechargeable"
+    },
+    "price": 96.83
+   },
+   "0706330896": {
+    "available": true,
+    "clearance": true,
+    "item_id": "0706330896",
+    "options": {
+     "brightness": "bright",
+     "color": "white",
+     "power": "corded"
+    },
+    "price": 55.24
+   },
+   "2377997190": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2377997190",
+    "options": {
+     "brightness": "bright",
+     "color": "black",
+     "power": "rechargeable"
+    },
+    "price": 124.1
+   },
+   "2637792179": {
+    "available": true,
+    "clearance": false,
+    "item_id": "2637792179",
+    "options": {
+     "brightness": "bright",
+     "color": "black",
+     "power": "corded"
+    },
+    "price": 68.89
+   },
+   "3306930313": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3306930313",
+    "options": {
+     "brightness": "bright",
+     "color": "brass",
+     "power": "rechargeable"
+    },
+    "price": 117.31
+   },
+   "5771557218": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5771557218",
+    "options": {
+     "brightness": "bright",
+     "color": "brass",
+     "power": "corded"
+    },
+    "price": 89.79
+   },
+   "6262201398": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6262201398",
+    "options": {
+     "brightness": "standard",
+     "color": "white",
+     "power": "rechargeable"
+    },
+    "price": 68.57
+   },
+   "7730335611": {
+    "available": true,
+    "clearance": false,
+    "item_id": "7730335611",
+    "options": {
+     "brightness": "standard",
+     "color": "black",
+     "power": "rechargeable"
+    },
+    "price": 92.99
+   },
+   "8635403486": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8635403486",
+    "options": {
+     "brightness": "standard",
+     "color": "brass",
+     "power": "corded"
+    },
+    "price": 114.06
+   }
+  }
+ },
+ "8933297620": {
+  "category": "apparel",
+  "name": "Rain Jacket",
+  "product_id": "8933297620",
+  "variants": {
+   "0281957086": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0281957086",
+    "options": {
+     "color": "navy",
+     "hood": "detachable",
+     "size": "L"
+    },
+    "price": 182.6
+   },
+   "0326670009": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0326670009",
+    "options": {
+     "color": "yellow",
+     "hood": "detachable",
+     "size": "XL"
+    },
+    "price": 122.91
+   },
+   "0353388696": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0353388696",
+    "options": {
+     "color": "navy",
+     "hood": "fixed",
+     "size": "M"
+    },
+    "price": 96.25
+   },
+   "0414521098": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0414521098",
+    "options": {
+     "color": "yellow",
+     "hood": "fixed",
+     "size": "S"
+    },
+    "price": 189.65
+   },
+   "1798271824": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1798271824",
+    "options": {
+     "color": "yellow",
+     "hood": "detachable",
+     "size": "S"
+    },
+    "price": 191.14
+   },
+   "3605182156": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3605182156",
+    "options": {
+     "color": "yellow",
+     "hood": "fixed",
+     "size": "L"
+    },
+    "price": 116.08
+   },
+   "5235857443": {
+    "available": false,
+    "clearance": false,
+    "item_id": "5235857443",
+    "options": {
+     "color": "navy",
+     "hood": "fixed",
+     "size": "XL"
+    },
+    "price": 126.03
+   },
+   "6385784977": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6385784977",
+    "options": {
+     "color": "navy",
+     "hood": "fixed",
+     "size": "S"
+    },
+    "price": 180.98
+   },
+   "9443184799": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9443184799",
+    "options": {
+     "color": "navy",
+     "hood": "fixed",
+     "size": "L"
+    },
+    "price": 118.27
+   },
+   "9480914180": {
+    "available": true,
+    "clearance": false,
+    "item_id": "9480914180",
+    "options": {
+     "color": "navy",
+     "hood": "detachable",
+     "size": "XL"
+    },
+    "price": 140.54
+   }
+  }
+ },
+ "8948113114": {
+  "category": "electronics",
+  "name": "Bluetooth Speaker",
+  "product_id": "8948113114",
+  "variants": {
+   "0201462016": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0201462016",
+    "options": {
+     "color": "blue",
+     "size": "standard",
+     "waterproof": "yes"
+    },
+    "price": 186.41
+   },
+   "0831240234": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0831240234",
+    "options": {
+     "color": "red",
+     "size": "standard",
+     "waterproof": "yes"
+    },
+    "price": 161.01
+   },
+   "0883873716": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0883873716",
+    "options": {
+     "color": "blue",
+     "size": "standard",
+     "waterproof": "no"
+    },
+    "price": 163.93
+   },
+   "1402614014": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1402614014",
+    "options": {
+     "color": "red",
+     "size": "mini",
+     "waterproof": "yes"
+    },
+    "price": 103.79
+   },
+   "3141705864": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3141705864",
+    "options": {
+     "color": "black",
+     "size": "mini",
+     "waterproof": "no"
+    },
+    "price": 160.28
+   },
+   "4934072247": {
+    "available": true,
+    "clearance": false,
+    "item_id": "4934072247",
+    "options": {
+     "color": "red",
+     "size": "mini",
+     "waterproof": "no"
+    },
+    "price": 95.38
+   },
+   "5585304352": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5585304352",
+    "options": {
+     "color": "red",
+     "size": "standard",
+     "waterproof": "no"
+    },
+    "price": 95.11
+   },
+   "6174833801": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6174833801",
+    "options": {
+     "color": "black",
+     "size": "standard",
+     "waterproof": "yes"
+    },
+    "price": 122.74
+   },
+   "8347824504": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8347824504",
+    "options": {
+     "color": "blue",
+     "size": "mini",
+     "waterproof": "no"
+    },
+    "price": 98.88
+   },
+   "8684335326": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8684335326",
+    "options": {
+     "color": "black",
+     "size": "standard",
+     "waterproof": "no"
+    },
+    "price": 198.89
+   }
+  }
+ },
+ "9054890103": {
+  "category": "apparel",
+  "name": "Running Shoes",
+  "product_id": "9054890103",
+  "variants": {
+   "0349971755": {
+    "available": true,
+    "clearance": false,
+    "item_id": "0349971755",
+    "options": {
+     "color": "black",
+     "size": "9"
+    },
+    "price": 121.99
+   },
+   "1576273207": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1576273207",
+    "options": {
+     "color": "green",
+     "size": "10"
+    },
+    "price": 170.31
+   },
+   "1961145931": {
+    "available": true,
+    "clearance": false,
+    "item_id": "1961145931",
+    "options": {
+     "color": "white",
+     "size": "8"
+    },
+    "price": 195.42
+   },
+   "2049452471": {
+    "available": true,
+    "clearance": true,
+    "item_id": "2049452471",
+    "options": {
+     "color": "black",
+     "size": "10"
+    },
+    "price": 128.4
+   },
+   "3023195271": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3023195271",
+    "options": {
+     "color": "volt",
+     "size": "9"
+    },
+    "price": 192.22
+   },
+   "3027827246": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3027827246",
+    "options": {
+     "color": "white",
+     "size": "9"
+    },
+    "price": 138.24
+   },
+   "3261000857": {
+    "available": true,
+    "clearance": false,
+    "item_id": "3261000857",
+    "options": {
+     "color": "white",
+     "size": "10"
+    },
+    "price": 146.12
+   },
+   "5080048701": {
+    "available": true,
+    "clearance": false,
+    "item_id": "5080048701",
+    "options": {
+     "color": "green",
+     "size": "8"
+    },
+    "price": 110.2
+   },
+   "6017553715": {
+    "available": true,
+    "clearance": false,
+    "item_id": "6017553715",
+    "options": {
+     "color": "black",
+     "size": "11"
+    },
+    "price": 109.99
+   },
+   "8627253320": {
+    "available": true,
+    "clearance": false,
+    "item_id": "8627253320",
+    "options": {
+     "color": "volt",
+     "size": "8"
+    },
+    "price": 193.88
+   }
+  }
+ }
+}
