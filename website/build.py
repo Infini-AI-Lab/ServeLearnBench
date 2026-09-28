@@ -19,7 +19,11 @@ figures from their PDFs under DIR (the paper sources), then builds.
 Averages follow the paper: one score per model-method-setting cell, then an
 unweighted mean over settings.
 """
-import argparse, csv, html, json, shutil, sys
+import argparse
+import csv
+import html
+import json
+import shutil
 from datetime import date
 from pathlib import Path
 
@@ -285,7 +289,8 @@ def page(snap, rows, tiers, project=None):
     rl3 = [r['values'][ci] for r in learners]
     rl3_best, rl3_med = max(rl3), statistics.median_low(rl3)
     ratio = [r['cost'] / next(o['cost'] for o in rows if o['model'] == r['model'] and o['harness'] == 'oracle') for r in learners]
-    tot_serv = sum(int(t['serving']) for t in tiers); tot_test = sum(int(t['test']) for t in tiers)
+    tot_serv = sum(int(t['serving']) for t in tiers)
+    tot_test = sum(int(t['test']) for t in tiers)
     tot_win = sum(int(t['stages']) for t in tiers)
     data = dict(models=[dict(key=m['key'], name=SHORT.get(m['name'], m['name'])) for m in snap['models']], columns=snap['columns'], rows=rows)
     tier_rows = ''.join(f"<tr><td class='l'>{t['domain']} {t['tier']}</td><td class='l'>{html.escape(t['latent_structure'])}</td>"
