@@ -75,59 +75,12 @@ See [docs/getting-started.md](docs/getting-started.md) for all options and local
 | `rag` | ✓ | BM25 retrieval of the agent's own past episodes (with their scores) into the prompt |
 
 A new method implements two hooks, `context()` and `update()`; see [docs/methods.md](docs/methods.md).
-The paper also evaluates Mem0, SkillOpt, Continual Harness and Prime; their results are in the leaderboard below.
+The paper also evaluates Mem0, SkillOpt, Continual Harness and Prime; their results are listed with the others under [Results](#results).
 
-## Leaderboard
+## Results
 
-Avg. H is the mean Hidden-Dependent score over the nine settings, Avg. F the mean Fully Specified score over the six
-Retail and Banking settings; every setting counts once. API cost is the total over the nine settings (serving stream,
-learning work and held-out test). Per-setting scores are in [docs/leaderboard.csv](docs/leaderboard.csv).
-
-| # | Model | Method | Avg. H | Avg. F | API cost ($) |
-|---:|---|---|---:|---:|---:|
-| 1 | Opus 5 | CH | 73.4 | 96.2 | 2,449 |
-| 2 | GLM-5.3 | CH | 69.8 | 96.7 | 1,077 |
-| 3 | GLM-5.3 | Prime | 63.7 | 95.6 | 2,930 |
-| 4 | Kimi K3 | Prime | 61.7 | 93.8 | 2,479 |
-| 5 | GLM-5.3 Flash | Prime | 61.1 | 95.2 | 172 |
-| 6 | DeepSeek V4.1 Flash | Prime | 60.3 | 92.4 | 429 |
-| 7 | Kimi K3 | CH | 57.8 | 84.2 | 1,335 |
-| 8 | GPT-5.6 Terra | CH | 55.8 | 94.2 | 239 |
-| 9 | DeepSeek V4.1 Flash | CH | 53.3 | 91.3 | 52 |
-| 10 | Kimi K3 | SkillOpt | 51.1 | 84.3 | 605 |
-| 11 | Opus 5 | SkillOpt | 50.4 | 92.7 | 629 |
-| 12 | GLM-5.3 Flash | CH | 49.7 | 82.8 | 89 |
-| 13 | Opus 5 | Mem0 | 47.8 | 90.3 | 2,003 |
-| 14 | GLM-5.3 | RAG | 45.9 | 87.6 | 932 |
-| 15 | Kimi K3 | RAG | 45.0 | 89.4 | 1,073 |
-| 16 | DeepSeek V4.1 Flash | RAG | 44.3 | 83.3 | 192 |
-| 17 | GLM-5.3 | Mem0 | 43.7 | 95.9 | 565 |
-| 18 | Opus 5 | RAG | 40.9 | 88.1 | 2,602 |
-| 19 | GLM-5.3 | SkillOpt | 39.5 | 91.4 | 251 |
-| 20 | GLM-5.3 Flash | Mem0 | 38.4 | 92.7 | 49 |
-| 21 | GLM-5.3 Flash | RAG | 38.2 | 91.1 | 56 |
-| 22 | Kimi K3 | Mem0 | 37.7 | 93.3 | 829 |
-| 23 | GLM-5.3 Flash | SkillOpt | 35.4 | 85.1 | 35 |
-| 24 | GPT-5.6 Terra | RAG | 34.9 | 91.4 | 496 |
-| 25 | DeepSeek V4.1 Flash | Mem0 | 33.5 | 94.3 | 76 |
-| 26 | DeepSeek V4.1 Flash | SkillOpt | 33.2 | 87.1 | 40 |
-| 27 | GPT-5.6 Terra | Mem0 | 31.7 | 96.1 | 206 |
-| 28 | GPT-5.6 Terra | SkillOpt | 29.6 | 94.6 | 146 |
-| | *references* | | | | |
-| | GPT-5.6 Terra | Blind | 15.1 | 97.8 | 40 |
-| | GLM-5.3 Flash | Blind | 14.6 | 96.7 | 7 |
-| | Opus 5 | Blind | 14.5 | 79.7 | 207 |
-| | DeepSeek V4.1 Flash | Blind | 14.4 | 91.1 | 11 |
-| | GLM-5.3 | Blind | 13.9 | 95.3 | 40 |
-| | Kimi K3 | Blind | 12.3 | 98.0 | 120 |
-| | GPT-5.6 Terra | Oracle | 97.6 | 98.6 | 36 |
-| | Opus 5 | Oracle | 97.1 | 100.0 | 131 |
-| | DeepSeek V4.1 Flash | Oracle | 95.6 | 99.9 | 7 |
-| | Kimi K3 | Oracle | 95.5 | 99.8 | 102 |
-| | GLM-5.3 | Oracle | 93.6 | 99.0 | 29 |
-| | GLM-5.3 Flash | Oracle | 93.1 | 98.5 | 5 |
-
-<p align="center"><img src="docs/assets/frontier.png" width="92%" alt="Hidden reward against token and API cost per task"></p>
+Scores of every model and method evaluated in the paper are on the [project website](https://haizhongzheng.github.io/ServeLearnBench/)
+and in [docs/leaderboard.csv](docs/leaderboard.csv).
 
 ## Documentation
 
