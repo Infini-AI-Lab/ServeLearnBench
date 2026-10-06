@@ -391,7 +391,10 @@ section{border-top:1px solid var(--line);margin-top:40px}
 .stat{border-left:0!important;text-align:center}.stat b{font-family:"Source Serif 4",Georgia,serif;font-size:30px}
 .card,.domain{border-top:2px solid var(--ink);padding-top:16px}
 .caption{font-family:var(--sans);font-size:14.5px}
-.finding{padding-top:18px}.finding .big{font-family:"Source Serif 4",Georgia,serif;font-weight:700;color:var(--accent)}
+.findings{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 40px;border:0}
+.finding,.finding+.finding{padding:0;border:0}
+.finding .big{font-family:"Source Serif 4",Georgia,serif;font-weight:700;color:var(--accent)}
+@media(max-width:640px){.findings{grid-template-columns:minmax(0,1fr)}}
 table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
 .scorebar i{background:var(--accent)}
 .domain .ex,.code{border-radius:4px}
@@ -458,7 +461,7 @@ table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
 
 <section id="findings">
   <div class="sec-head"><div><div class="kicker">Findings</div><h2>What the evaluation shows</h2></div></div>
-  <div class="findings"><div class="finding"><h3>Capability is not learning</h3><span class="big">95.4<small>vs 14.1</small></span><p>Mean Hidden score with the policy disclosed (Oracle) and without it (Blind). Every model can do the tasks once told the policy, yet on Retail L3 the best of 28 learning pairs reaches only 59.6 (median 22.0).</p></div><div class="finding"><h3>Adaptation is costly</h3><span class="big">4–101<small>× Oracle's cost</small></span><p>Inferring a hidden policy costs 4 to 101 times as much as following a disclosed one (Kimi K3: Prime $2,479 vs. Oracle $102), and it can degrade behavior that needed no learning.</p></div><div class="finding"><h3>Exploration is the bottleneck</h3><span class="big">ρ = 1.00</span><p>A method's answer diversity while it is still failing ranks the five methods exactly as their Hidden reward does (ρ = 0.75 over 30 method–domain–tier cells).</p></div></div>
+  <div class="findings"><div class="finding"><h3>Capability is not learning</h3><span class="big">95.4<small>vs 14.1</small></span><p>Mean Hidden score with the policy disclosed (Oracle) and without it (Blind). Every model can do the tasks once told the policy, yet on Retail L3 the best of 28 learning pairs reaches only 59.6 (median 22.0).</p></div><div class="finding"><h3>Adaptation is costly</h3><span class="big">4–101<small>× Oracle's cost</small></span><p>Inferring a hidden policy costs 4 to 101 times as much as following a disclosed one (Kimi K3: Prime $2,479 vs. Oracle $102), and it can degrade behavior that needed no learning.</p></div><div class="finding"><h3>Exploration is the bottleneck</h3><span class="big">ρ = 1.00</span><p>A method's answer diversity while it is still failing ranks the five methods exactly as their Hidden reward does (ρ = 0.75 over 30 method–domain–tier cells).</p></div><div class="finding"><h3>Learning can be fast after first success</h3><span class="big">78% / 76%</span><p>Once Prime and CH find the correct behavior, they quickly reuse it, averaging 78% and 76% correctness over the next five encounters. For these harnesses, finding the right behavior is a larger obstacle than reusing it.</p></div></div>
 </section>
 
 <section id="benchmark">
@@ -521,14 +524,6 @@ table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
       <p class="caption"><b>Exploration predicts adaptation.</b> Mean number of distinct answers after k Hidden serving tickets of a policy, and its area (exploration AUC) against mean Hidden reward over the six Retail and Banking settings; ρ is the Spearman rank correlation.</p></div>
     </article>
 
-    <article class="analysis-story">
-      <h3>A first success does not guarantee reusable knowledge</h3>
-      <p class="takeaway">After a policy's first correct response, Prime and CH remain correct on about 78% and 76% of the next five encounters, versus 38% for RAG. SkillOpt retains successful behavior relatively well (68%), yet has the lowest exploration score: discovering and reusing knowledge are distinct challenges.</p>
-    <div class="fig"><div class="legend" id="leg-harness-4"></div>
-      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> Correct after the first success</p><div class="chart" id="ka-curve"></div></div>
-      <div><p class="panel-title"><b>(b)</b> Reward vs. knowledge acquisition</p><div class="chart" id="ka-fit"></div></div></div>
-      <p class="caption">Correctness aligned at the first success, and AUC<sub>KA</sub>: mean correctness over the next five encounters, plotted against Hidden reward.</p></div>
-    </article>
   </div>
 
 </section>

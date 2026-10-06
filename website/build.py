@@ -119,7 +119,7 @@ def stats(tiers):
     return "".join(f'<div class="stat"><b>{v}</b><span>{k}</span></div>' for v, k in items)
 
 
-def findings_html(rows, columns):
+def findings_html(rows, columns, figures):
     learners = [r for r in rows if not r["ref"]]
     oracle = statistics.mean(r["avg_h"] for r in rows if r["harness"] == "oracle")
     blind = statistics.mean(r["avg_h"] for r in rows if r["harness"] == "blind")
@@ -128,6 +128,7 @@ def findings_html(rows, columns):
     ratio = [r["cost"] / next(o["cost"] for o in rows if o["model"] == r["model"] and o["harness"] == "oracle") for r in learners]
     kimi_prime = next(r["cost"] for r in rows if r["model"] == "kimi-k3" and r["harness"] == "prime")
     kimi_oracle = next(r["cost"] for r in rows if r["model"] == "kimi-k3" and r["harness"] == "oracle")
+    acquisition = {p["label"]: p["x"] for p in figures["ka"]["fit"]["points"]}
     cards = [
         ("Capability is not learning", f"{oracle:.1f}<small>vs {blind:.1f}</small>",
          f"Mean Hidden score with the policy disclosed (Oracle) and without it (Blind). Every model can do the tasks once told the policy, "
@@ -138,6 +139,10 @@ def findings_html(rows, columns):
         ("Exploration is the bottleneck", "ρ = 1.00",
          "A method's answer diversity while it is still failing ranks the five methods exactly as their Hidden reward does "
          "(ρ = 0.75 over 30 method–domain–tier cells)."),
+        ("Learning can be fast after first success", f"{acquisition['Prime']:.0f}% / {acquisition['CH']:.0f}%",
+         "Once Prime and CH find the correct behavior, they quickly reuse it, averaging "
+         f"{acquisition['Prime']:.0f}% and {acquisition['CH']:.0f}% correctness over the next five encounters. "
+         "For these harnesses, finding the right behavior is a larger obstacle than reusing it."),
     ]
     return "".join(f'<div class="finding"><h3>{t}</h3><span class="big">{b}</span><p>{p}</p></div>' for t, b, p in cards)
 
@@ -243,7 +248,7 @@ def main():
                       f'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={FONTS[a.theme]}&display=swap">'),
             "%%PROTOCOL%%": (src / "protocol_figure.html").read_text(),
             "%%PEOPLE%%": people(project), "%%BUTTONS%%": buttons(project), "%%NAVLINKS%%": nav_links(project),
-            "%%STATS%%": stats(tiers), "%%FINDINGS%%": findings_html(rows, snap["columns"]), "%%DOMAINS%%": domains_html(),
+            "%%STATS%%": stats(tiers), "%%FINDINGS%%": findings_html(rows, snap["columns"], figures), "%%DOMAINS%%": domains_html(),
             "%%TIERROWS%%": tier_rows(tiers), "%%BIBTEX%%": bibtex(project), "%%SNAPSHOT%%": html.escape(snap.get("generated", "")[:10]),
             "%%FRONTIER_LEGEND%%": frontier_legend(), "%%CELL_LEGEND%%": cell_legend(), "%%PHASE_LEGEND%%": phase_legend,
             "%%DROP_PANELS%%": drop, "%%ED_PANELS%%": ed,
