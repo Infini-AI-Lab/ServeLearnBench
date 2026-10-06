@@ -39,7 +39,7 @@
   "note": "",
   "links": {
     "Paper": "",
-    "Code": "https://github.com/haizhongzheng/ServeLearnBench",
+    "Code": "https://github.com/Infini-AI-Lab/ServeLearnBench",
     "Dataset": "https://huggingface.co/datasets/haizhongzheng/ServeLearnBench"
   }
 }

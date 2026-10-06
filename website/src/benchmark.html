@@ -1,0 +1,30 @@
+%%HEAD%%
+%%NAV%%
+
+<main class="wrap">
+<section id="benchmark">
+  <div class="sec-head"><div><div class="kicker">Benchmark</div><h2>Three domains, three tiers, one protocol</h2>
+  <p class="sec-sub">Each scenario is an evolving-environment streaming dataset: a chronological task stream split into windows, each governed by a
+  latent environment state that may change at the next boundary. Serving and test tasks of a window cover the same policy with disjoint instances.</p></div></div>
+  <div class="domains">%%DOMAINS%%</div>
+  <div style="margin-top:16px"><div class="card"><div class="table-scroll"><table class="scen"><thead><tr><th class="l">Scenario</th><th class="l">Latent structure</th><th>Windows</th><th>Serving</th><th>Test</th></tr></thead><tbody>%%TIERROWS%%</tbody></table></div></div></div>
+  <div class="threecol">
+    <div class="card"><h3>Difficulty tiers</h3><dl class="tiers">
+      <dt>L1 · acquisition</dt><dd>Previously unseen states; mostly single-policy requests; Pitch profiles never repeat.</dd>
+      <dt>L2 · revision and composition</dt><dd>Earlier states are revised; multi-policy Retail requests, ranked or batched Banking decisions, recurring Pitch profiles.</dd>
+      <dt>L3 · non-monotonic evolution</dt><dd>Reversals, removals and re-entry of earlier states on top of L2's composition.</dd></dl></div>
+    <div class="card"><h3>What the learner sees</h3><ul class="rules">
+      <li><b>Every task:</b> the task, prefixed with its stream position (<span class="mono">Current timestamp: t</span>), and the domain documents, which may be incomplete or out of date.</li>
+      <li><b>After a serving task:</b> its own trajectory and one line, <span class="mono">Score: n/100.</span></li>
+      <li><b>Never:</b> the hidden policy, the correct answer, the task's category, window boundaries, or any explanation. Test tasks return nothing.</li>
+      <li><b>Budget:</b> one attempt per task, 50 tool calls, 100 turns.</li></ul></div>
+    <div class="card"><h3>How it is scored</h3><ul class="rules">
+      <li><b>Hidden-Dependent</b> tasks need the hidden policy; <b>Fully Specified</b> tasks can be solved from visible information. A good learner raises the first without losing the second.</li>
+      <li>Retail and Banking are graded by rule (database state or decision and reason code); Pitch by an LLM-judged rubric.</li>
+      <li>A setting score is the mean reward × 100 over a scenario's test tasks of one category; averages weight every setting equally.</li></ul></div>
+  </div>
+</section>
+</main>
+
+%%FOOT%%
+

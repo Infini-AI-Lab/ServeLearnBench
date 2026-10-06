@@ -1,6 +1,6 @@
 <div align="center">
 
-# ServeLearnBench
+<h1><img src="docs/assets/logo.svg" width="52" height="24" alt="ServeLearnBench logo"> ServeLearnBench</h1>
 
 **How well can agents self-improve from serving experience?**
 

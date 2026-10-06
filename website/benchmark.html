@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>ServeLearnBench</title>
+<title>ServeLearnBench Benchmark</title>
 <meta name="description" content="ServeLearnBench: how well can agents self-improve from serving experience? Benchmark, leaderboard and analyses.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600&family=Source+Code+Pro:wght@400;500&display=swap">
@@ -412,140 +412,44 @@ table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
 </div></nav>
 
 
-<header class="hero overview-hero" id="top"><div class="wrap">
-  <div class="eyebrow">Benchmark · continual learning from serving experience</div>
-  <h1>ServeLearnBench</h1>
-  <p class="question">How well can agents self-improve from serving experience?</p>
-  <p class="authors">Haizhong Zheng<sup>1</sup>, Yizhuo Di<sup>1</sup>, Ranajoy Sadhukhan<sup>1</sup>, Shuowei Jin<sup>2</sup>, Beidi Chen<sup>1</sup></p>
-<p class="affils"><sup>1</sup>Carnegie Mellon University &nbsp;·&nbsp; <sup>2</sup>Amazon</p>
-  <div class="links"><a class="btn disabled" aria-disabled="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 1.5h5.5L12.5 4.5v10H4z"/><path d="M9.5 1.5v3h3M6 8h4.5M6 10.5h4.5"/></svg>Paper (coming soon)</a><a class="btn" href="https://github.com/Infini-AI-Lab/ServeLearnBench"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 .2a8 8 0 0 0-2.5 15.6c.4 0 .5-.2.5-.4v-1.4c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8a7.6 7.6 0 0 1 4 0c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.8-3.6 4 .3.3.6.8.6 1.5v2.2c0 .2.1.5.6.4A8 8 0 0 0 8 .2z"/></svg>Code</a><a class="btn" href="https://huggingface.co/datasets/haizhongzheng/ServeLearnBench"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><ellipse cx="8" cy="3.5" rx="5.5" ry="2"/><path d="M2.5 3.5v9c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2v-9M2.5 8c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2"/></svg>Dataset</a><a class="btn primary" href="#start">Evaluate an agent →</a></div>
-  <p class="lede">Deployed agents work under policies, constraints and preferences that are partly undisclosed and change over time.
-  In ServeLearnBench an agent serves a stream of tasks whose hidden policy shifts between windows. After each task it sees only a score,
-  and held-out tests at the end of every window measure what it actually learned.</p>
-</div></header>
-
-<main class="wrap research-overview">
-<section id="cost-performance">
-  <div class="fig">
-    <div class="fig-grid"><div><div class="chart" id="fig1-tokens"></div></div>
-    <div><div class="chart" id="fig1-usd"></div></div></div>
-    <div class="legend"><div class="legend-group"><span class="legend-label">Method</span><span><i class="dot" style="background:var(--prime)"></i>Prime</span><span><i class="dot" style="background:var(--ch)"></i>CH</span><span><i class="dot" style="background:var(--rag)"></i>RAG</span><span><i class="dot" style="background:var(--mem0)"></i>Mem0</span><span><i class="dot" style="background:var(--skillopt)"></i>SkillOpt</span></div><div class="legend-group"><span class="legend-label">Model</span><span><svg width="12" height="12" viewBox="0 0 12 12" style="fill:var(--muted)"><circle cx="6" cy="6" r="4.5"/></svg>GLM-5.3 Flash</span><span><svg width="12" height="12" viewBox="0 0 12 12" style="fill:var(--muted)"><path d="M6 .8 11.2 6 6 11.2.8 6z"/></svg>DS-V4.1 Flash</span><span><svg width="12" height="12" viewBox="0 0 12 12" style="fill:var(--muted)"><rect x="1.8" y="1.8" width="8.4" height="8.4" rx="1"/></svg>GLM-5.3</span><span><svg width="12" height="12" viewBox="0 0 12 12" style="fill:var(--muted)"><path d="M6 1 11 10.5H1z"/></svg>Kimi K3</span><span><svg width="12" height="12" viewBox="0 0 12 12" style="fill:var(--muted)"><path d="M6 .8 10.5 3.4v5.2L6 11.2 1.5 8.6V3.4z"/></svg>Opus 5</span><span><svg width="12" height="12" viewBox="0 0 12 12" style="fill:var(--muted)"><path d="M4.3 1h3.4v3.3H11v3.4H7.7V11H4.3V7.7H1V4.3h3.3z"/></svg>GPT-5.6 Terra</span></div></div>
-    <p class="caption"><b>Cost vs. performance.</b> Average Hidden reward versus total tokens and API cost per test task.
-    Lines mark the Pareto frontier: no other pair is both cheaper and better.</p></div>
-</section>
-
-<section id="leaderboard">
-  <div class="sec-head"><h2>Leaderboard</h2></div>
-  <div class="board preview"><div class="table-scroll"><table id="lb-preview"></table></div><div class="fade"></div></div>
-  <div class="board-links"><a class="btn primary" href="leaderboard.html">Full leaderboard with charts →</a><a class="btn" href="index.html#start">Evaluate your method →</a></div>
-</section>
-
-<section class="protocol-preview" id="protocol">
-  <div class="sec-head"><div><div class="kicker">Benchmark Design</div><h2>How ServeLearnBench works</h2></div></div>
-  <figure class="stream">
-    <div class="stream-head"><span class="stream-title">The protocol</span>
-    <div class="stream-ctl" id="stream-ctl">
-      <div class="steps" role="group" aria-label="Parts of the animation"><button type="button" data-step="0"><span>1 · Scale</span></button><button type="button" data-step="1"><span>2 · Serve &amp; learn</span></button></div>
-      <span class="sp"></span><button type="button" data-a="play" aria-pressed="true">Pause</button><button type="button" data-a="restart">Restart</button><button type="button" data-a="speed" aria-label="Playback speed">1×</button></div>
-    </div>
-    <div class="sv-wrap" id="stream-viz"></div>
-    <figcaption class="caption"><span><b>1 · Scale.</b> Nine streams, 53 windows, 7,718 tasks.</span><span><b>2 · Serve and learn.</b> One stream, schematic.
-    Serving tasks return a score to the agent's memory; test tasks return nothing. From scores alone, the agent infers a hidden policy
-    that changes at window boundaries (red lines).</span></figcaption>
-  </figure>
-  <div class="stats"><div class="stat"><b>3</b><span>domains</span></div><div class="stat"><b>9</b><span>scenarios</span></div><div class="stat"><b>53</b><span>environment windows</span></div><div class="stat"><b>4,508</b><span>serving tasks</span></div><div class="stat"><b>3,210</b><span>held-out test tasks</span></div><div class="stat"><b>28</b><span>model–method pairs</span></div></div>
-</section>
-
-<section id="findings">
-  <div class="sec-head"><div><div class="kicker">Findings</div><h2>What the evaluation shows</h2></div></div>
-  <div class="findings"><div class="finding"><h3>Capability is not learning</h3><span class="big">95.4<small>vs 14.1</small></span><p>Mean Hidden score with the policy disclosed (Oracle) and without it (Blind). Every model can do the tasks once told the policy, yet on Retail L3 the best of 28 learning pairs reaches only 59.6 (median 22.0).</p></div><div class="finding"><h3>Adaptation is costly</h3><span class="big">4–101<small>× Oracle's cost</small></span><p>Inferring a hidden policy costs 4 to 101 times as much as following a disclosed one (Kimi K3: Prime $2,479 vs. Oracle $102), and it can degrade behavior that needed no learning.</p></div><div class="finding"><h3>Exploration is the bottleneck</h3><span class="big">ρ = 1.00</span><p>A method's answer diversity while it is still failing ranks the five methods exactly as their Hidden reward does (ρ = 0.75 over 30 method–domain–tier cells).</p></div></div>
-</section>
-
+<main class="wrap">
 <section id="benchmark">
-  <div class="sec-head"><div><div class="kicker">Benchmark</div><h2>Three domains, three difficulty tiers</h2></div></div>
-  <p class="sec-sub">Agents serve evolving task streams in Retail, Banking, and Pitch. Across three difficulty tiers, they must learn new environment knowledge, revise it as conditions change, and handle returns to earlier states.</p>
-  <p><a class="btn" href="benchmark.html">Explore the benchmark →</a></p>
-</section>
+  <div class="sec-head"><div><div class="kicker">Benchmark</div><h2>Three domains, three tiers, one protocol</h2>
+  <p class="sec-sub">Each scenario is an evolving-environment streaming dataset: a chronological task stream split into windows, each governed by a
+  latent environment state that may change at the next boundary. Serving and test tasks of a window cover the same policy with disjoint instances.</p></div></div>
+  <div class="domains"><div class="domain"><div class="dh"><h3>Retail</h3><span>L1 · L2 · L3</span></div><p>Multi-turn customer support over an order database: cancel or modify pending orders, return or exchange delivered items. Correct only if the final database state is the intended one, or the request is refused with the right reason code.</p><pre class="ex">Current timestamp: 129
 
-<section id="analysis">
-  <div class="sec-head"><div><div class="kicker">Analysis</div><h2>How the scores come about</h2>
-  <p class="sec-sub">How reliably do agents learn, what does learning cost, and which behaviors distinguish effective learning harnesses?</p></div></div>
-  <div class="analysis-stories">
-    <article class="analysis-story">
-      <h3>A large learning gap remains</h3>
-      <p class="takeaway">Across the four open-weight models, Prime and CH achieve average Hidden scores of 61.7 and 57.6, ahead of the other learners at 38.3–43.4. Yet even the strongest learner remains far below Oracle's 94.5.</p>
-    <div class="fig"><div class="legend" id="leg-avg"></div>
-      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> By model</p><div class="chart" id="avg-model"></div></div>
-      <div><p class="panel-title"><b>(b)</b> By method</p><div class="chart" id="avg-harness"></div></div></div>
-      <p class="caption">Hidden and Fully Specified test scores, averaged by model and by method over the four open-weight models.</p></div>
-    </article>
+Customer: Olivia Moreau (zip 21938) writes:
+&quot;Could I return item 2645252359 — the Water Bottle — off order #W9000498? No longer needed. I&#x27;d like the refund on my gift card (gift_card_8859872).&quot;</pre><div class="pills"><span class="pill">tool use</span><span class="pill">categorical rules</span><span class="pill">refusal codes</span></div></div><div class="domain"><div class="dh"><h3>Banking</h3><span>L1 · L2 · L3</span></div><p>Case review: authorize card transactions, review credit-limit increases, screen outbound transfers. Harder tiers add ranked alternatives and payment batches. Hidden policies are thresholds, caps and corridors.</p><pre class="ex">Current timestamp: 134
 
-    <article class="analysis-story">
-      <h3>Higher reward comes at a substantial cost</h3>
-      <p class="takeaway">Prime achieves 59.0 Hidden reward at $0.195 per task. CH reaches 55.1 at $0.083, delivering nearly as much reward at less than half the cost.</p>
-    <div class="fig"><div class="legend" id="leg-cm"></div>
-      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> By model</p><div class="chart" id="cm-model"></div></div>
-      <div><p class="panel-title"><b>(b)</b> By method</p><div class="chart" id="cm-harness"></div></div></div>
-      <p class="caption"><b>Cost against reward.</b> Average API cost of one task, serving stream (learning work included) and held-out test pooled, with Hidden and all-case reward averaged over the nine settings.</p></div>
-    </article>
+Credit request LIM-107892: account ACC-184760 proposes a new ceiling of $5857.25. Record the decision.</pre><div class="pills"><span class="pill">decisions</span><span class="pill">numeric thresholds</span><span class="pill">composition</span></div></div><div class="domain"><div class="dh"><h3>Pitch</h3><span>L1 · L2 · L3</span></div><p>Write a 40–80 word sales pitch from a factual product sheet for a customer whose taste is never stated. A rubric rewards liked attributes and penalizes disliked, false or invented claims.</p><pre class="ex">Current timestamp: 99
 
-    <article class="analysis-story">
-      <h3>Learning speed depends strongly on the harness</h3>
-      <p class="takeaway">Prime and CH learn new policies fastest in both domains. After five examples of a Banking policy, both answer roughly 60% of subsequent tasks correctly; progress is slower in Retail.</p>
-    <div class="fig"><div class="legend" id="leg-harness-2"></div>
-      <div class="fig-grid learning-speed-grid"><div><p class="panel-title"><b>(a)</b> Banking</p><div class="chart" id="ls-bank"></div></div>
-      <div><p class="panel-title"><b>(b)</b> Retail</p><div class="chart" id="ls-retail"></div></div>
-      <div><p class="panel-title"><b>(c)</b> Banking AULC<sub>10</sub></p><div class="chart" id="hm-bank"></div></div>
-      <div><p class="panel-title"><b>(d)</b> Retail AULC<sub>10</sub></p><div class="chart" id="hm-retail"></div></div></div>
-      <p class="caption"><b>How fast does a method learn a new policy?</b> Correctness on a policy's Hidden serving tickets against how many earlier tickets of the same policy it has seen, and AULC<sub>10</sub>, the mean correctness over the first ten.</p></div>
-    </article>
+Product to pitch:
+Product: Orin Go Max (backpack)
+Facts:
+  - already has a large user base
+  - premium price
+  - standard materials
+  - provides only the essential functions, with few extras
+  - a trending, much-talked-about item
 
-    <article class="analysis-story">
-      <h3>Learning can damage already-correct behavior</h3>
-      <p class="takeaway">On Fully Specified Retail tasks, every learning harness falls below Blind's 98.9% accuracy, reaching only 89.5–95.5%. This loss is not universal: Prime and Mem0 improve on Blind in Banking.</p>
-    <div class="fig">
-      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> Retail</p><div class="chart" id="fs-retail"></div></div>
-      <div><p class="panel-title"><b>(b)</b> Banking</p><div class="chart" id="fs-banking"></div></div></div>
-      <p class="caption">Fully Specified accuracy, averaged over the four open-weight models and three tiers in each domain.</p></div>
-    </article>
-
-    <article class="analysis-story">
-      <h3>Methods that explore more tend to learn better</h3>
-      <p class="takeaway">The five harnesses have exactly the same ranking by exploration and Hidden reward (ρ = 1.00). Prime and CH try more distinct answers, while weaker learners often keep repeating the same behavior.</p>
-    <div class="fig"><div class="legend" id="leg-harness-3"></div>
-      <div class="fig-grid g4"><div><p class="panel-title"><b>(a)</b> Diversity by method</p><div class="chart" id="ex-h-curve"></div></div>
-      <div><p class="panel-title"><b>(b)</b> Reward vs. exploration</p><div class="chart" id="ex-h-fit"></div></div>
-      <div><p class="panel-title"><b>(c)</b> Diversity by model</p><div class="chart" id="ex-m-curve"></div></div>
-      <div><p class="panel-title"><b>(d)</b> Reward vs. exploration</p><div class="chart" id="ex-m-fit"></div></div></div>
-      <div class="legend" id="leg-models" style="margin-top:6px"></div>
-      <p class="caption"><b>Exploration predicts adaptation.</b> Mean number of distinct answers after k Hidden serving tickets of a policy, and its area (exploration AUC) against mean Hidden reward over the six Retail and Banking settings; ρ is the Spearman rank correlation.</p></div>
-    </article>
-
-    <article class="analysis-story">
-      <h3>A first success does not guarantee reusable knowledge</h3>
-      <p class="takeaway">After a policy's first correct response, Prime and CH remain correct on about 78% and 76% of the next five encounters, versus 38% for RAG. SkillOpt retains successful behavior relatively well (68%), yet has the lowest exploration score: discovering and reusing knowledge are distinct challenges.</p>
-    <div class="fig"><div class="legend" id="leg-harness-4"></div>
-      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> Correct after the first success</p><div class="chart" id="ka-curve"></div></div>
-      <div><p class="panel-title"><b>(b)</b> Reward vs. knowledge acquisition</p><div class="chart" id="ka-fit"></div></div></div>
-      <p class="caption">Correctness aligned at the first success, and AUC<sub>KA</sub>: mean correctness over the next five encounters, plotted against Hidden reward.</p></div>
-    </article>
+Write your pitch.</pre><div class="pills"><span class="pill">generation</span><span class="pill">latent preferences</span><span class="pill">LLM judge</span></div></div></div>
+  <div style="margin-top:16px"><div class="card"><div class="table-scroll"><table class="scen"><thead><tr><th class="l">Scenario</th><th class="l">Latent structure</th><th>Windows</th><th>Serving</th><th>Test</th></tr></thead><tbody><tr><td class='l mono'>retail_l1</td><td class='l'>Categorical rules</td><td class='num'>6</td><td class='num'>720</td><td class='num'>384</td></tr><tr><td class='l mono'>retail_l2</td><td class='l'>Categorical rules</td><td class='num'>7</td><td class='num'>810</td><td class='num'>765</td></tr><tr><td class='l mono'>retail_l3</td><td class='l'>Categorical rules with reversals</td><td class='num'>8</td><td class='num'>624</td><td class='num'>537</td></tr><tr><td class='l mono'>banking_l1</td><td class='l'>Numeric boundaries</td><td class='num'>4</td><td class='num'>336</td><td class='num'>178</td></tr><tr><td class='l mono'>banking_l2</td><td class='l'>Composed numeric boundaries</td><td class='num'>5</td><td class='num'>500</td><td class='num'>387</td></tr><tr><td class='l mono'>banking_l3</td><td class='l'>Numeric boundaries with reversals</td><td class='num'>6</td><td class='num'>600</td><td class='num'>551</td></tr><tr><td class='l mono'>pitch_l1</td><td class='l'>Customer preferences</td><td class='num'>4</td><td class='num'>216</td><td class='num'>96</td></tr><tr><td class='l mono'>pitch_l2</td><td class='l'>Preference drift</td><td class='num'>6</td><td class='num'>324</td><td class='num'>144</td></tr><tr><td class='l mono'>pitch_l3</td><td class='l'>Preferences with reversals</td><td class='num'>7</td><td class='num'>378</td><td class='num'>168</td></tr><tr><td class='l'><b>Total</b></td><td></td><td class='num'><b>53</b></td><td class='num'><b>4,508</b></td><td class='num'><b>3,210</b></td></tr></tbody></table></div></div></div>
+  <div class="threecol">
+    <div class="card"><h3>Difficulty tiers</h3><dl class="tiers">
+      <dt>L1 · acquisition</dt><dd>Previously unseen states; mostly single-policy requests; Pitch profiles never repeat.</dd>
+      <dt>L2 · revision and composition</dt><dd>Earlier states are revised; multi-policy Retail requests, ranked or batched Banking decisions, recurring Pitch profiles.</dd>
+      <dt>L3 · non-monotonic evolution</dt><dd>Reversals, removals and re-entry of earlier states on top of L2's composition.</dd></dl></div>
+    <div class="card"><h3>What the learner sees</h3><ul class="rules">
+      <li><b>Every task:</b> the task, prefixed with its stream position (<span class="mono">Current timestamp: t</span>), and the domain documents, which may be incomplete or out of date.</li>
+      <li><b>After a serving task:</b> its own trajectory and one line, <span class="mono">Score: n/100.</span></li>
+      <li><b>Never:</b> the hidden policy, the correct answer, the task's category, window boundaries, or any explanation. Test tasks return nothing.</li>
+      <li><b>Budget:</b> one attempt per task, 50 tool calls, 100 turns.</li></ul></div>
+    <div class="card"><h3>How it is scored</h3><ul class="rules">
+      <li><b>Hidden-Dependent</b> tasks need the hidden policy; <b>Fully Specified</b> tasks can be solved from visible information. A good learner raises the first without losing the second.</li>
+      <li>Retail and Banking are graded by rule (database state or decision and reason code); Pitch by an LLM-judged rubric.</li>
+      <li>A setting score is the mean reward × 100 over a scenario's test tasks of one category; averages weight every setting equally.</li></ul></div>
   </div>
-
-</section>
-
-<section id="start">
-  <div class="sec-head"><div><div class="kicker">Get started</div><h2>Evaluate an agent</h2>
-  <p class="sec-sub">Find the code, installation instructions, and evaluation guide on GitHub.</p></div></div>
-  <a class="btn primary" href="https://github.com/Infini-AI-Lab/ServeLearnBench">Get started on GitHub →</a>
-</section>
-
-<section id="cite">
-  <div class="sec-head"><div><div class="kicker">Citation</div><h2>Cite ServeLearnBench</h2></div></div>
-  <pre class="code"><button class="copy" type="button">Copy</button>@misc{zheng2026servelearnbench,
-  title  = {ServeLearnBench: How Well Can Agents Self-Improve from Serving Experience?},
-  author = {Zheng, Haizhong and Di, Yizhuo and Sadhukhan, Ranajoy and Jin, Shuowei and Chen, Beidi},
-  year   = {2026}
-}</pre>
 </section>
 </main>
 
@@ -1318,4 +1222,5 @@ chart("lb-heat", host => {
 </script>
 </body>
 </html>
+
 

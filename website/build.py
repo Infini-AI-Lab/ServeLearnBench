@@ -184,7 +184,8 @@ def frontier_legend():
     models = [("GLM-5.3 Flash", "o"), ("DS-V4.1 Flash", "d"), ("GLM-5.3", "s"), ("Kimi K3", "^"), ("Opus 5", "h"), ("GPT-5.6 Terra", "p")]
     a = "".join(f'<span><i class="dot" style="background:var({c})"></i>{n}</span>' for n, c in harn)
     b = "".join(f'<span><svg width="12" height="12" viewBox="0 0 12 12" style="fill:var(--muted)">{SHAPE_SVG[s]}</svg>{n}</span>' for n, s in models)
-    return a + b
+    return ('<div class="legend-group"><span class="legend-label">Method</span>' + a + '</div>'
+            '<div class="legend-group"><span class="legend-label">Model</span>' + b + '</div>')
 
 
 def cell_legend():
@@ -230,7 +231,8 @@ def main():
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     for tpl, name, title in (("home.html", "index.html", "ServeLearnBench"),
-                             ("leaderboard.html", "leaderboard.html", "ServeLearnBench Leaderboard")):
+                             ("leaderboard.html", "leaderboard.html", "ServeLearnBench Leaderboard"),
+                             ("benchmark.html", "benchmark.html", "ServeLearnBench Benchmark")):
         page = (src / tpl).read_text()
         for k2, v2 in chrome.items():
             page = page.replace(k2, v2)
