@@ -1,0 +1,171 @@
+%%HEAD%%
+%%NAV%%
+
+<header class="hero" id="top"><div class="wrap">
+  <div class="eyebrow">Benchmark · continual learning from serving experience</div>
+  <h1>ServeLearnBench</h1>
+  <p class="question">How well can agents self-improve from serving experience?</p>
+  %%PEOPLE%%
+  <div class="links">%%BUTTONS%%</div>
+  <p class="lede">Deployed agents work under policies, constraints and preferences that are partly undisclosed and change over time.
+  In ServeLearnBench an agent serves a stream of tasks whose hidden policy shifts between windows. After each task it sees only a score,
+  and held-out tests at the end of every window measure what it actually learned.</p>
+</div></header>
+
+<div class="wrap">
+  <figure class="stream" style="margin:0">
+    <div class="stream-head"><span class="stream-title">The protocol</span></div>
+    <div class="sv-wrap" id="stream-viz"></div>
+    <div class="stream-ctl" id="stream-ctl">
+      <div class="steps" role="group" aria-label="Parts of the animation"><button type="button" data-step="0"><span>1 · Scale</span></button><button type="button" data-step="1"><span>2 · Serve &amp; learn</span></button></div>
+      <span class="sp"></span><button type="button" data-a="play" aria-pressed="true">Pause</button><button type="button" data-a="restart">Restart</button><button type="button" data-a="speed" aria-label="Playback speed">1×</button></div>
+    <figcaption class="caption"><b>1 · Scale.</b> Nine streams, 53 windows, 7,718 tasks. <b>2 · Serve and learn.</b> One stream, schematic.
+    Serving tasks return a score to the agent's memory; test tasks return nothing. From scores alone, the agent infers a hidden policy
+    that changes at window boundaries (red lines).</figcaption>
+  </figure>
+  <div class="stats">%%STATS%%</div>
+</div>
+
+<main class="wrap">
+<section id="cost-performance">
+  <div class="sec-head"><div><div class="kicker">Cost vs. performance</div><h2>What does learning cost?</h2>
+  <p class="sec-sub">Every model–method pair, placed by its average Hidden score and by what one held-out test task costs to run.
+  Points on the staircase are Pareto-efficient: no other pair is both cheaper and better.</p></div></div>
+  <div class="fig"><div class="legend">%%FRONTIER_LEGEND%%</div>
+    <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> Tokens</p><div class="chart" id="fig1-tokens"></div></div>
+    <div><p class="panel-title"><b>(b)</b> API cost</p><div class="chart" id="fig1-usd"></div></div></div>
+    <p class="caption"><b>Cost vs. performance.</b> (a) Hidden-case reward versus token cost per test task (prefill, KV-cache hits and output
+    tokens included). (b) Hidden-case reward versus API cost per test task. Reward is the Avg. Hidden of the leaderboard (mean over the nine
+    settings). Lines connect Pareto-efficient pairs, for which no other plotted pair achieves both lower cost and higher reward.</p></div>
+</section>
+
+<section id="leaderboard">
+  <div class="sec-head"><div><div class="kicker">Leaderboard</div><h2>Who learns from serving?</h2>
+    <p class="sec-sub">Ranked by <b>Avg. Hidden</b>, the mean over the nine Hidden-Dependent settings. <b>Avg. FS</b> averages the six Retail and Banking Fully Specified settings; API cost is the total over the nine settings.</p></div></div>
+  <div class="board preview"><div class="table-scroll"><table id="lb-preview"></table></div><div class="fade"></div></div>
+  <div class="board-links"><a class="btn primary" href="leaderboard.html">Full leaderboard with charts →</a><a class="btn" href="index.html#start">Evaluate your method →</a></div>
+</section>
+
+<section id="findings">
+  <div class="sec-head"><div><div class="kicker">Findings</div><h2>What the evaluation shows</h2></div></div>
+  <div class="findings">%%FINDINGS%%</div>
+</section>
+
+<section id="benchmark">
+  <div class="sec-head"><div><div class="kicker">Benchmark</div><h2>Three domains, three tiers, one protocol</h2>
+  <p class="sec-sub">Each scenario is an evolving-environment streaming dataset: a chronological task stream split into windows, each governed by a
+  latent environment state that may change at the next boundary. Serving and test tasks of a window cover the same policy with disjoint instances.</p></div></div>
+  <div class="domains">%%DOMAINS%%</div>
+  <div style="margin-top:16px"><div class="card"><div class="table-scroll"><table class="scen"><thead><tr><th class="l">Scenario</th><th class="l">Latent structure</th><th>Windows</th><th>Serving</th><th>Test</th></tr></thead><tbody>%%TIERROWS%%</tbody></table></div></div></div>
+  <div class="threecol">
+    <div class="card"><h3>Difficulty tiers</h3><dl class="tiers">
+      <dt>L1 · acquisition</dt><dd>Previously unseen states; mostly single-policy requests; Pitch profiles never repeat.</dd>
+      <dt>L2 · revision and composition</dt><dd>Earlier states are revised; multi-policy Retail requests, ranked or batched Banking decisions, recurring Pitch profiles.</dd>
+      <dt>L3 · non-monotonic evolution</dt><dd>Reversals, removals and re-entry of earlier states on top of L2's composition.</dd></dl></div>
+    <div class="card"><h3>What the learner sees</h3><ul class="rules">
+      <li><b>Every task:</b> the task, prefixed with its stream position (<span class="mono">Current timestamp: t</span>), and the domain documents, which may be incomplete or out of date.</li>
+      <li><b>After a serving task:</b> its own trajectory and one line, <span class="mono">Score: n/100.</span></li>
+      <li><b>Never:</b> the hidden policy, the correct answer, the task's category, window boundaries, or any explanation. Test tasks return nothing.</li>
+      <li><b>Budget:</b> one attempt per task, 50 tool calls, 100 turns.</li></ul></div>
+    <div class="card"><h3>How it is scored</h3><ul class="rules">
+      <li><b>Hidden-Dependent</b> tasks need the hidden policy; <b>Fully Specified</b> tasks can be solved from visible information. A good learner raises the first without losing the second.</li>
+      <li>Retail and Banking are graded by rule (database state or decision and reason code); Pitch by an LLM-judged rubric.</li>
+      <li>A setting score is the mean reward × 100 over a scenario's test tasks of one category; averages weight every setting equally.</li></ul></div>
+  </div>
+</section>
+
+<section id="analysis">
+  <div class="sec-head"><div><div class="kicker">Analysis</div><h2>How the scores come about</h2>
+  <p class="sec-sub">Hover any mark for its value. The learning-dynamics analyses use the recorded serving streams of the four open-weight models and run no new inference.</p></div></div>
+  <div class="stack-gap">
+    <div class="fig"><div class="legend" id="leg-avg"></div>
+      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> By model</p><div class="chart" id="avg-model"></div></div>
+      <div><p class="panel-title"><b>(b)</b> By method</p><div class="chart" id="avg-harness"></div></div></div>
+      <p class="caption"><b>Average performance</b> of the four open-weight models. Prime and CH lead the learners but remain far below Oracle.</p></div>
+
+    <div class="fig"><div class="legend" id="leg-cm"></div>
+      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> By model</p><div class="chart" id="cm-model"></div></div>
+      <div><p class="panel-title"><b>(b)</b> By method</p><div class="chart" id="cm-harness"></div></div></div>
+      <p class="caption"><b>Cost against reward.</b> Average API cost of one task, serving stream (learning work included) and held-out test pooled, with Hidden and all-case reward averaged over the nine settings.</p></div>
+
+    <div class="fig"><div class="legend" id="leg-harness-2"></div>
+      <div class="fig-grid g4"><div><p class="panel-title"><b>(a)</b> Banking</p><div class="chart" id="ls-bank"></div></div>
+      <div><p class="panel-title"><b>(b)</b> Retail</p><div class="chart" id="ls-retail"></div></div>
+      <div><p class="panel-title"><b>(c)</b> Banking AULC<sub>10</sub></p><div class="chart" id="hm-bank"></div></div>
+      <div><p class="panel-title"><b>(d)</b> Retail AULC<sub>10</sub></p><div class="chart" id="hm-retail"></div></div></div>
+      <p class="caption"><b>How fast does a method learn a new policy?</b> Correctness on a policy's Hidden serving tickets against how many earlier tickets of the same policy it has seen, and AULC<sub>10</sub>, the mean correctness over the first ten.</p></div>
+
+    <div class="fig">
+      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> Retail</p><div class="chart" id="fs-retail"></div></div>
+      <div><p class="panel-title"><b>(b)</b> Banking</p><div class="chart" id="fs-banking"></div></div></div>
+      <p class="caption"><b>Does adaptation harm what needed no learning?</b> Fully Specified accuracy, averaged over the four open-weight models and three tiers. Every learner loses accuracy against Blind in Retail.</p></div>
+
+    <div class="fig"><div class="legend" id="leg-harness-3"></div>
+      <div class="fig-grid g4"><div><p class="panel-title"><b>(a)</b> Diversity by method</p><div class="chart" id="ex-h-curve"></div></div>
+      <div><p class="panel-title"><b>(b)</b> Reward vs. exploration</p><div class="chart" id="ex-h-fit"></div></div>
+      <div><p class="panel-title"><b>(c)</b> Diversity by model</p><div class="chart" id="ex-m-curve"></div></div>
+      <div><p class="panel-title"><b>(d)</b> Reward vs. exploration</p><div class="chart" id="ex-m-fit"></div></div></div>
+      <div class="legend" id="leg-models" style="margin-top:6px"></div>
+      <p class="caption"><b>Exploration predicts adaptation.</b> Mean number of distinct answers after k Hidden serving tickets of a policy, and its area (exploration AUC) against mean Hidden reward over the six Retail and Banking settings; ρ is the Spearman rank correlation.</p></div>
+
+    <div class="fig"><div class="legend" id="leg-harness-4"></div>
+      <div class="fig-grid"><div><p class="panel-title"><b>(a)</b> Correct after the first success</p><div class="chart" id="ka-curve"></div></div>
+      <div><p class="panel-title"><b>(b)</b> Reward vs. knowledge acquisition</p><div class="chart" id="ka-fit"></div></div></div>
+      <p class="caption"><b>Does a first success stick?</b> Correctness on a policy's Hidden serving tickets aligned at the first correct one, and AUC<sub>KA</sub>, the mean over the next five. SkillOpt keeps what it finds but rarely finds it; RAG finds it but does not reuse it.</p></div>
+  </div>
+
+  <details class="more"><summary>More analyses</summary><div class="stack-gap" style="margin-top:8px">
+    <div class="fig"><div class="legend"><span><i style="background:var(--ink2)"></i>Learn the policy</span><span><i class="dash" style="color:var(--ink2)"></i>Drop the same policy</span></div>
+      <div class="fig-grid" style="grid-template-columns:repeat(auto-fit,minmax(190px,1fr))">%%DROP_PANELS%%</div>
+      <p class="caption"><b>Learning a policy versus dropping it.</b> Correctness while a hidden policy applies (learning) and after it is withdrawn and the documented behavior returns (dropping), for pairs whose policy was mastered. Tickets are binned; numbers are the pairs.</p></div>
+    <div class="fig"><div class="legend" id="leg-harness-1"></div>
+      <div class="fig-grid g4">%%ED_PANELS%%</div>
+      <p class="caption"><b>Exploration by domain.</b> The curves and reward relation above, separately for Retail and Banking, by method (top) and by model (bottom).</p></div>
+    <div class="fig"><div class="legend">%%CELL_LEGEND%%</div>
+      <div class="fig-grid g3"><div><p class="panel-title"><b>(a)</b> All 30 cells</p><div class="chart" id="cells-all"></div></div>
+      <div><p class="panel-title"><b>(b)</b> Retail</p><div class="chart" id="cells-retail"></div></div>
+      <div><p class="panel-title"><b>(c)</b> Banking</p><div class="chart" id="cells-bank"></div></div></div>
+      <p class="caption"><b>Exploration per method, domain and tier.</b> One point per cell; ρ and r are the Spearman and Pearson correlations.</p></div>
+    <div class="fig"><div class="legend">%%PHASE_LEGEND%%</div>
+      <div class="fig-grid g4"><div><p class="panel-title"><b>(a)</b> Serving, by model</p><div class="chart" id="ph-sm"></div></div>
+      <div><p class="panel-title"><b>(b)</b> Serving, by method</p><div class="chart" id="ph-sh"></div></div>
+      <div><p class="panel-title"><b>(c)</b> Test, by model</p><div class="chart" id="ph-tm"></div></div>
+      <div><p class="panel-title"><b>(d)</b> Test, by method</p><div class="chart" id="ph-th"></div></div></div>
+      <p class="caption"><b>Cost and reward by phase.</b> The serving stream (learning work included) and the held-out test kept apart.</p></div>
+    <div class="fig"><div class="legend" id="leg-lc"></div>
+      <div class="fig-grid g4"><div><p class="panel-title">GLM-5.3 Flash</p><div class="chart" id="lc-0"></div></div>
+      <div><p class="panel-title">GLM-5.3</p><div class="chart" id="lc-1"></div></div>
+      <div><p class="panel-title">Kimi K3</p><div class="chart" id="lc-2"></div></div>
+      <div><p class="panel-title">DS-V4.1 Flash</p><div class="chart" id="lc-3"></div></div></div>
+      <p class="caption"><b>Where the serving budget goes.</b> API cost per serving task, split between serving the stream and updating the learned state; percentages are the learning share.</p></div>
+  </div></details>
+</section>
+
+<section id="start">
+  <div class="sec-head"><div><div class="kicker">Get started</div><h2>Evaluate an agent</h2>
+  <p class="sec-sub">Any OpenAI-compatible endpoint with native tool calling works. Blind, Oracle and RAG ship with the code; a new method implements two hooks, <span class="mono">context()</span> and <span class="mono">update()</span>.</p></div></div>
+  <div class="twocol" style="margin-top:0">
+    <pre class="code"><button class="copy" type="button">Copy</button><span class="c"># install and check the nine scenarios</span>
+git clone https://github.com/haizhongzheng/ServeLearnBench.git
+cd ServeLearnBench && pip install -e .
+slb verify
+
+<span class="c"># run a method, then score</span>
+export SLB_API_KEY=...
+slb run --scenario banking_l1 --method rag --model MODEL
+slb score results/*/*.jsonl</pre>
+    <pre class="code"><button class="copy" type="button">Copy</button><span class="c"># the task streams and environments</span>
+from datasets import load_dataset
+
+ds = load_dataset("haizhongzheng/ServeLearnBench", "banking_l2")
+ds["serving"][0]["instruction"]</pre>
+  </div>
+</section>
+
+<section id="cite">
+  <div class="sec-head"><div><div class="kicker">Citation</div><h2>Cite ServeLearnBench</h2></div></div>
+  <pre class="code"><button class="copy" type="button">Copy</button>%%BIBTEX%%</pre>
+</section>
+</main>
+
+%%FOOT%%

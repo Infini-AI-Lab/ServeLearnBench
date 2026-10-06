@@ -1,0 +1,22 @@
+/* Terminal: monospace throughout, square corners, hairline frames. */
+:root{--mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;--sans:var(--mono);--cond:var(--mono);
+  --bg:#FBFBF9;--surface:#FFFFFF;--sunk:#F2F2EE;--ink:#141414;--ink2:#474744;--muted:#85857F;--line:#E3E3DE;--line2:#CDCDC6;
+  --accent:#3B37C9;--accent-ink:#FFFFFF;--accent-soft:#E7E6FB;--serve:#C9B27F;--test:#3B37C9;--shadow:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0E0E0D;--surface:#141413;--sunk:#1A1A18;--ink:#EDEDE8;--ink2:#B4B4AD;--muted:#7C7C76;--line:#262624;--line2:#34342F;--accent:#9C99FF;--accent-ink:#0E0E0D;--accent-soft:#1E1D3A;--test:#8683F0;--serve:#8E7B52}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0E0E0D;--surface:#141413;--sunk:#1A1A18;--ink:#EDEDE8;--ink2:#B4B4AD;--muted:#7C7C76;--line:#262624;--line2:#34342F;--accent:#9C99FF;--accent-ink:#0E0E0D;--accent-soft:#1E1D3A;--test:#8683F0;--serve:#8E7B52}
+body{font-size:14.5px;line-height:1.65}
+.board,.fig,.stream,.card,.domain,.stats,.code,.btn,.seg,.seg button,.chip,.icon-btn,.pill,.tag,.domain .ex{border-radius:0!important}
+.hero{text-align:center;padding-block:64px 36px}
+.hero .question,.hero .lede{margin-inline:auto}.hero .links{justify-content:center}.hero .question{max-width:44ch}
+h1{font-weight:800;letter-spacing:-.04em;font-size:clamp(38px,6vw,68px)}
+h1::before{content:"$ ";color:var(--accent)}
+h2{font-weight:700;font-size:24px;letter-spacing:-.02em}
+h2::before{content:"## ";color:var(--muted);font-weight:400}
+.kicker{display:none}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.finding .big{color:var(--accent)}
+th{font-size:11px}
+.scorebar{border-radius:0;height:8px}.scorebar i{background:var(--ink)}
+tr.ref .scorebar i{background:var(--muted)}
+.stat b{font-weight:700}
+.brand-mark i{border-radius:0}

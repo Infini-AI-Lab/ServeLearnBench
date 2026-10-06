@@ -1,0 +1,38 @@
+%%HEAD%%
+%%NAV%%
+
+<main class="wrap">
+<section id="leaderboard" style="padding-top:40px">
+  <div class="sec-head"><div><div class="kicker">Leaderboard</div><h2>ServeLearnBench leaderboard</h2>
+    <p class="sec-sub"><b>Avg. Hidden</b> averages the nine Hidden-Dependent settings and <b>Avg. Fully Spec.</b> the six Retail and Banking
+    Fully Specified settings, each setting counted once. API cost is the total over nine settings, serving stream, learning work and test included.</p></div></div>
+  <div class="board">
+    <div class="board-bar">
+      <div class="seg" id="lb-view" role="group" aria-label="Leaderboard view">
+        <button type="button" data-view="rank" aria-pressed="true">Ranking</button>
+        <button type="button" data-view="setting" aria-pressed="false">Per setting</button>
+        <button type="button" data-view="frontier" aria-pressed="false">Cost frontier</button>
+      </div>
+      <div class="chips" id="lb-models" aria-label="Filter models"></div>
+    </div>
+    <div class="view" data-view="rank"><div class="table-scroll"><table id="lb"></table></div></div>
+    <div class="view" data-view="setting" hidden><div class="table-scroll"><table id="lb2"></table></div></div>
+    <div class="view chart-box" data-view="frontier" hidden>
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:2px 6px 8px">
+        <div class="legend" style="margin:0">%%FRONTIER_LEGEND%%</div>
+        <div class="seg" id="fx" role="group" aria-label="Cost axis"><button type="button" data-x="tokens" aria-pressed="true">Tokens</button><button type="button" data-x="usd" aria-pressed="false">API cost</button></div>
+      </div>
+      <div class="chart" id="frontier"></div>
+    </div>
+    <div class="board-foot">Results snapshot %%SNAPSHOT%%. One run per cell. Prime was not run with Opus 5 and GPT-5.6 Terra because of its cost.
+    The frontier view plots Avg. Hidden against the cost of one held-out test task; the staircase is the Pareto frontier.</div>
+  </div>
+</section>
+<section id="by-setting">
+  <div class="sec-head"><div><div class="kicker">Breakdown</div><h2>Hidden score by setting</h2>
+  <p class="sec-sub">Each cell is a setting score on the held-out test tasks. Darker is better; hover for the value.</p></div></div>
+  <div class="fig"><div class="chart" id="lb-heat"></div></div>
+</section>
+</main>
+
+%%FOOT%%

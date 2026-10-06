@@ -1,0 +1,38 @@
+/* Journal: a research article. Serif text, centred masthead, figures set on the page between hairlines. */
+:root{--sans:"Source Sans 3",-apple-system,"Segoe UI",Arial,sans-serif;--cond:"Source Serif 4",Georgia,serif;--mono:"Source Code Pro",ui-monospace,Menlo,monospace;
+  --bg:#FFFFFF;--surface:#FFFFFF;--sunk:#F6F5F2;--ink:#1B1B1B;--ink2:#474540;--muted:#8A877F;--line:#E6E3DC;--line2:#CFCBC1;
+  --accent:#8C1D18;--accent-ink:#FFFFFF;--accent-soft:#F6E8E6;--serve:#CDB88E;--test:#35507E;--shadow:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#151412;--surface:#151412;--sunk:#1D1C19;--ink:#ECE8E1;--ink2:#BDB7AC;--muted:#8D877C;--line:#2B2925;--line2:#3A3732;--accent:#E0827A;--accent-ink:#151412;--accent-soft:#3A1F1C;--test:#7F9BCC;--serve:#8C7A57}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#151412;--surface:#151412;--sunk:#1D1C19;--ink:#ECE8E1;--ink2:#BDB7AC;--muted:#8D877C;--line:#2B2925;--line2:#3A3732;--accent:#E0827A;--accent-ink:#151412;--accent-soft:#3A1F1C;--test:#7F9BCC;--serve:#8C7A57}
+body{font:17.5px/1.7 "Source Serif 4",Georgia,serif}
+.nav .wrap,.wrap{max-width:920px;padding-inline:clamp(16px,5vw,40px)}
+.brand{font-family:"Source Serif 4",Georgia,serif;font-size:17px;font-weight:700}
+.nav-links a{font-family:var(--sans)}
+.hero{text-align:center;padding-block:72px 28px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--sans);letter-spacing:.14em;color:var(--muted)}
+h1{font:700 clamp(44px,6.4vw,72px)/1.02 "Source Serif 4",Georgia,serif;letter-spacing:-.02em}
+.hero .question{font:italic 400 clamp(20px,2.4vw,26px)/1.35 "Source Serif 4",Georgia,serif;margin-inline:auto;max-width:36ch;color:var(--ink2)}
+.hero .links{justify-content:center}.hero .lede{margin-inline:auto;text-align:left}
+.authors{font-size:18px}.affils{font-family:var(--sans)}
+.btn{border-radius:999px;font-family:var(--sans);background:transparent}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+h2{font:700 32px/1.15 "Source Serif 4",Georgia,serif;letter-spacing:-.01em}
+.kicker{font-family:var(--sans);color:var(--accent)}
+section{border-top:1px solid var(--line);margin-top:40px}
+.fig,.board,.stream,.card,.domain,.stats{border:0;border-radius:0;box-shadow:none;background:transparent;padding-inline:0}
+.fig{border-top:1px solid var(--line);padding-top:22px}
+.board{border-top:2px solid var(--ink)}.board-bar{padding-inline:0}
+.stats{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stat{border-left:0!important;text-align:center}.stat b{font-family:"Source Serif 4",Georgia,serif;font-size:30px}
+.card,.domain{border-top:2px solid var(--ink);padding-top:16px}
+.caption{font-family:var(--sans);font-size:14.5px}
+.finding{padding-top:18px}.finding .big{font-family:"Source Serif 4",Georgia,serif;font-weight:700;color:var(--accent)}
+table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
+.scorebar i{background:var(--accent)}
+.domain .ex,.code{border-radius:4px}
+.chart text{font-family:var(--sans)}
+.panel-title{font-family:var(--sans);font-style:italic}
+
+.fig .chart .lbl,.board .chart .lbl{stroke:var(--bg)}
+.board.preview .fade{background:linear-gradient(to bottom,transparent,var(--bg))}
+.chart .lblbox{fill:var(--bg)}
