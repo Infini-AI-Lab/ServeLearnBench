@@ -8,12 +8,14 @@ Haizhong Zheng<sup>1</sup>, Yizhuo Di<sup>1</sup>, Ranajoy Sadhukhan<sup>1</sup>
 
 <sup>1</sup>Carnegie Mellon University &nbsp; <sup>2</sup>Amazon
 
-[![Website](https://img.shields.io/badge/website-online-9cf.svg)](https://haizhongzheng.github.io/ServeLearnBench/)
+[![Website](https://img.shields.io/badge/website-online-9cf.svg)](https://infini-ai-lab.github.io/ServeLearnBench/)
 [![Dataset on HF](https://img.shields.io/badge/%F0%9F%A4%97-dataset-yellow.svg)](https://huggingface.co/datasets/haizhongzheng/ServeLearnBench)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](pyproject.toml)
 
 </div>
+
+<p align="center"><img src="docs/assets/frontier.png" width="92%" alt="Hidden reward versus token and API cost per task"></p>
 
 The knowledge an agent needs in deployment is often implicit, undisclosed, and subject to change. ServeLearnBench
 measures whether an agent can **infer that knowledge from its own serving experience, revise it when it goes stale,
@@ -38,7 +40,7 @@ Nine scenarios, **53 windows, 4,508 serving tasks and 3,210 held-out test tasks*
 ## Installation
 
 ```bash
-git clone https://github.com/haizhongzheng/ServeLearnBench.git
+git clone https://github.com/Infini-AI-Lab/ServeLearnBench.git
 cd ServeLearnBench
 pip install -e .            # Python 3.12+
 slb verify                  # regenerates all nine scenarios and checks them against the paper's
@@ -47,6 +49,10 @@ slb verify                  # regenerates all nine scenarios and checks them aga
 ## Quick start
 
 Any OpenAI-compatible endpoint with native tool calling works. The key is read from `SLB_API_KEY`.
+Use the command line for a quick baseline run, or the Python API to configure a run in code. Both use the same
+task streams, learning schedule, and evaluator.
+
+### Command line
 
 ```bash
 export SLB_API_KEY=...
@@ -62,7 +68,36 @@ slb run --scenario banking_l1 --method rag --model accounts/fireworks/models/glm
 slb score results/*/*.jsonl
 ```
 
-Results are written to `results/<model>/<scenario>_<method>.jsonl`, one line per episode with the full trajectory.
+### Python API
+
+With `SLB_API_KEY` set, run the same RAG evaluation and inspect its scores directly:
+
+```python
+from servelearnbench.llm import ModelConfig
+from servelearnbench.methods import RAG
+from servelearnbench.runner import run
+from servelearnbench.scoring import read_rows, setting_scores
+
+model = ModelConfig(
+    model="accounts/fireworks/models/glm-5p3-flash",
+    base_url="https://api.fireworks.ai/inference/v1",
+)
+output = run(
+    scenario="banking_l1",
+    method=RAG(),
+    model_cfg=model,
+    out="results/banking_l1_rag.jsonl",
+)
+_, tasks = read_rows(output)
+print(setting_scores(tasks))
+```
+
+Replace `RAG()` with `Blind()` or `Oracle()` (imported from the same methods module) to run a reference baseline.
+To implement your own learning method, see [examples/custom_method.py](examples/custom_method.py) and
+[the method interface](docs/methods.md).
+
+The CLI writes results to `results/<model>/<scenario>_<method>.jsonl`; the Python API uses the path supplied as
+`out`. Each file records task rewards and full trajectories.
 Pitch is scored by an LLM judge (`--judge-model`, default `glm-5p3-flash` at high reasoning effort, as in the paper).
 See [docs/getting-started.md](docs/getting-started.md) for all options and local servers.
 
@@ -79,7 +114,7 @@ The paper also evaluates Mem0, SkillOpt, Continual Harness and Prime; their resu
 
 ## Results
 
-Scores of every model and method evaluated in the paper are on the [project website](https://haizhongzheng.github.io/ServeLearnBench/)
+Scores of every model and method evaluated in the paper are on the [project website](https://infini-ai-lab.github.io/ServeLearnBench/)
 and in [docs/leaderboard.csv](docs/leaderboard.csv).
 
 ## Documentation
@@ -124,4 +159,4 @@ If you find ServeLearnBench useful, please cite:
 
 ## License
 
-Apache 2.0. The retail domain's tool interface follows the design of [τ-bench](https://github.com/sierra-research/tau-bench).
+Apache 2.0.
