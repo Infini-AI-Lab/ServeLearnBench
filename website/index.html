@@ -444,7 +444,8 @@ table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
 </section>
 
 <section class="protocol-preview" id="protocol">
-  <div class="sec-head"><div><div class="kicker">Benchmark Design</div><h2>How ServeLearnBench works</h2></div></div>
+  <div class="sec-head"><div><div class="kicker">Benchmark Design</div><h2>How ServeLearnBench works</h2>
+    <p class="sec-sub">Agents serve evolving task streams in Retail, Banking, and Pitch. Across three difficulty tiers, they must learn new environment knowledge, revise it as conditions change, and handle returns to earlier states.</p></div></div>
   <figure class="stream">
     <div class="stream-head"><span class="stream-title">The protocol</span>
     <div class="stream-ctl" id="stream-ctl">
@@ -457,6 +458,7 @@ table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
     that changes at window boundaries (red lines).</span></figcaption>
   </figure>
   <div class="stats"><div class="stat"><b>3</b><span>domains</span></div><div class="stat"><b>9</b><span>scenarios</span></div><div class="stat"><b>53</b><span>environment windows</span></div><div class="stat"><b>4,508</b><span>serving tasks</span></div><div class="stat"><b>3,210</b><span>held-out test tasks</span></div><div class="stat"><b>28</b><span>model–method pairs</span></div></div>
+  <p><a class="btn" href="benchmark.html">Explore the benchmark →</a></p>
 </section>
 
 <section id="findings">
@@ -464,16 +466,22 @@ table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
   <div class="findings"><div class="finding"><h3>Capability is not learning</h3><span class="big">95.4<small>vs 14.1</small></span><p>Mean Hidden score with the policy disclosed (Oracle) and without it (Blind). Every model can do the tasks once told the policy, yet on Retail L3 the best of 28 learning pairs reaches only 59.6 (median 22.0).</p></div><div class="finding"><h3>Adaptation is costly</h3><span class="big">4–101<small>× Oracle's cost</small></span><p>Inferring a hidden policy costs 4 to 101 times as much as following a disclosed one (Kimi K3: Prime $2,479 vs. Oracle $102), and it can degrade behavior that needed no learning.</p></div><div class="finding"><h3>Exploration is the bottleneck</h3><span class="big">ρ = 1.00</span><p>A method's answer diversity while it is still failing ranks the five methods exactly as their Hidden reward does (ρ = 0.75 over 30 method–domain–tier cells).</p></div><div class="finding"><h3>Learning can be fast after first success</h3><span class="big">78% / 76%</span><p>Once Prime and CH find the correct behavior, they quickly reuse it, averaging 78% and 76% correctness over the next five encounters. For these harnesses, finding the right behavior is a larger obstacle than reusing it.</p></div></div>
 </section>
 
-<section id="benchmark">
-  <div class="sec-head"><div><div class="kicker">Benchmark</div><h2>Three domains, three difficulty tiers</h2></div></div>
-  <p class="sec-sub">Agents serve evolving task streams in Retail, Banking, and Pitch. Across three difficulty tiers, they must learn new environment knowledge, revise it as conditions change, and handle returns to earlier states.</p>
-  <p><a class="btn" href="benchmark.html">Explore the benchmark →</a></p>
-</section>
-
 <section id="analysis">
   <div class="sec-head"><div><div class="kicker">Analysis</div><h2>How the scores come about</h2>
   <p class="sec-sub">How reliably do agents learn, what does learning cost, and which behaviors distinguish effective learning harnesses?</p></div></div>
   <div class="analysis-stories">
+    <article class="analysis-story">
+      <h3>Methods that explore more tend to learn better</h3>
+      <p class="takeaway">The five harnesses have exactly the same ranking by exploration and Hidden reward (ρ = 1.00). Prime and CH try more distinct answers, while weaker learners often keep repeating the same behavior.</p>
+    <div class="fig"><div class="legend" id="leg-harness-3"></div>
+      <div class="fig-grid g4"><div><p class="panel-title"><b>(a)</b> Diversity by method</p><div class="chart" id="ex-h-curve"></div></div>
+      <div><p class="panel-title"><b>(b)</b> Reward vs. exploration</p><div class="chart" id="ex-h-fit"></div></div>
+      <div><p class="panel-title"><b>(c)</b> Diversity by model</p><div class="chart" id="ex-m-curve"></div></div>
+      <div><p class="panel-title"><b>(d)</b> Reward vs. exploration</p><div class="chart" id="ex-m-fit"></div></div></div>
+      <div class="legend" id="leg-models" style="margin-top:6px"></div>
+      <p class="caption"><b>Exploration predicts adaptation.</b> Mean number of distinct answers after k Hidden serving tickets of a policy, and its area (exploration AUC) against mean Hidden reward over the six Retail and Banking settings; ρ is the Spearman rank correlation.</p></div>
+    </article>
+
     <article class="analysis-story">
       <h3>A large learning gap remains</h3>
       <p class="takeaway">Across the four open-weight models, Prime and CH achieve average Hidden scores of 61.7 and 57.6, ahead of the other learners at 38.3–43.4. Yet even the strongest learner remains far below Oracle's 94.5.</p>
@@ -512,17 +520,6 @@ table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
       <p class="caption">Fully Specified accuracy, averaged over the four open-weight models and three tiers in each domain.</p></div>
     </article>
 
-    <article class="analysis-story">
-      <h3>Methods that explore more tend to learn better</h3>
-      <p class="takeaway">The five harnesses have exactly the same ranking by exploration and Hidden reward (ρ = 1.00). Prime and CH try more distinct answers, while weaker learners often keep repeating the same behavior.</p>
-    <div class="fig"><div class="legend" id="leg-harness-3"></div>
-      <div class="fig-grid g4"><div><p class="panel-title"><b>(a)</b> Diversity by method</p><div class="chart" id="ex-h-curve"></div></div>
-      <div><p class="panel-title"><b>(b)</b> Reward vs. exploration</p><div class="chart" id="ex-h-fit"></div></div>
-      <div><p class="panel-title"><b>(c)</b> Diversity by model</p><div class="chart" id="ex-m-curve"></div></div>
-      <div><p class="panel-title"><b>(d)</b> Reward vs. exploration</p><div class="chart" id="ex-m-fit"></div></div></div>
-      <div class="legend" id="leg-models" style="margin-top:6px"></div>
-      <p class="caption"><b>Exploration predicts adaptation.</b> Mean number of distinct answers after k Hidden serving tickets of a policy, and its area (exploration AUC) against mean Hidden reward over the six Retail and Banking settings; ρ is the Spearman rank correlation.</p></div>
-    </article>
 
   </div>
 
