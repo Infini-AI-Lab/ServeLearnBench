@@ -42,6 +42,6 @@
   "links": {
     "Paper": "https://arxiv.org/abs/2610.07792",
     "Code": "https://github.com/Infini-AI-Lab/ServeLearnBench",
-    "Dataset": "https://huggingface.co/datasets/haizhongzheng/ServeLearnBench"
+    "Dataset": ""
   }
 }

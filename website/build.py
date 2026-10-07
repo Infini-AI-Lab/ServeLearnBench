@@ -17,8 +17,8 @@ Inputs, all in this directory:
     project.json              authors, affiliations and links
     ../dataset/data/          sample task instructions for the domain cards
 
-The output is one self-contained file (inline CSS, JS and data; only the web
-fonts load from Google Fonts).
+Each page embeds its CSS, JS and data. Favicons are served from assets/;
+web fonts load from Google Fonts.
 
     python3 website/build.py
     python3 -m http.server 9393 -d website       # local preview
@@ -96,6 +96,8 @@ def buttons(project):
     out = []
     for name in ("Paper", "Code", "Dataset"):
         url = project.get("links", {}).get(name, "")
+        if name == "Dataset" and not url:
+            continue
         label = name if url or name != "Paper" else "Paper (coming soon)"
         cls = "btn" + ("" if url else " disabled")
         href = f' href="{html.escape(url)}"' if url else ' aria-disabled="true"'
@@ -130,21 +132,21 @@ def findings_html(rows, columns, figures):
     kimi_oracle = next(r["cost"] for r in rows if r["model"] == "kimi-k3" and r["harness"] == "oracle")
     acquisition = {p["label"]: p["x"] for p in figures["ka"]["fit"]["points"]}
     cards = [
-        ("Capability is not learning", f"{oracle:.1f}<small>vs {blind:.1f}</small>",
-         f"Mean Hidden score with the policy disclosed (Oracle) and without it (Blind). Every model can do the tasks once told the policy, "
-         f"yet on Retail L3 the best of {len(learners)} learning pairs reaches only {max(rl3):.1f} (median {statistics.median_low(rl3):.1f})."),
-        ("Adaptation is costly", f"{min(ratio):.0f}–{max(ratio):.0f}<small>× Oracle's cost</small>",
+        ("Agents can solve tasks, but still struggle to learn.",
+         f"Models average {oracle:.1f} on Hidden tasks with the policy disclosed (Oracle), versus {blind:.1f} without it (Blind). "
+         f"Yet on Retail L3 the best of {len(learners)} learning pairs reaches only {max(rl3):.1f} (median {statistics.median_low(rl3):.1f})."),
+        ("Learning is expensive and can hurt performance on tasks agents could already solve.",
          f"Inferring a hidden policy costs {min(ratio):.0f} to {max(ratio):.0f} times as much as following a disclosed one "
          f"(Kimi K3: Prime ${kimi_prime:,.0f} vs. Oracle ${kimi_oracle:,.0f}), and it can degrade behavior that needed no learning."),
-        ("Exploration is the bottleneck", "ρ = 1.00",
-         "A method's answer diversity while it is still failing ranks the five methods exactly as their Hidden reward does "
-         "(ρ = 0.75 over 30 method–domain–tier cells)."),
-        ("Learning can be fast after first success", f"{acquisition['Prime']:.0f}% / {acquisition['CH']:.0f}%",
+        ("Exploration is critical for harness evolution and continual learning.",
+         "Harnesses that try more varied answers tend to perform better on Hidden tasks. Across the five harnesses, "
+         "answer diversity and Hidden-task reward have exactly the same ranking (Spearman rank correlation: 1.00)."),
+        ("Finding the right behavior is often harder than reusing it.",
          "Once Prime and CH find the correct behavior, they quickly reuse it, averaging "
          f"{acquisition['Prime']:.0f}% and {acquisition['CH']:.0f}% correctness over the next five encounters. "
-         "For these harnesses, finding the right behavior is a larger obstacle than reusing it."),
+         "For these stronger harnesses, discovering useful behavior appears to be a larger bottleneck than reusing it."),
     ]
-    return "".join(f'<div class="finding"><h3>{t}</h3><span class="big">{b}</span><p>{p}</p></div>' for t, b, p in cards)
+    return "".join(f'<div class="finding"><h3>{t}</h3><p>{p}</p></div>' for t, p in cards)
 
 
 def domains_html():

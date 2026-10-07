@@ -1,8 +1,7 @@
 # Data
 
 The `dataset/` directory of this repository contains the files that `slb export-data --out dataset` writes:
-every scenario's task stream and environment, exactly as the code generates them. The same files are on
-[Hugging Face](https://huggingface.co/datasets/haizhongzheng/ServeLearnBench). Running an evaluation does not
+every scenario's task stream and environment, exactly as the code generates them. Running an evaluation does not
 read them; the code builds the tasks in memory, and a test checks that the two agree.
 
 ```

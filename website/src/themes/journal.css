@@ -64,7 +64,7 @@ section{border-top:1px solid var(--line);margin-top:40px}
 .caption{font-family:var(--sans);font-size:14.5px}
 .findings{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 40px;border:0}
 .finding,.finding+.finding{padding:0;border:0}
-.finding .big{font-family:"Source Serif 4",Georgia,serif;font-weight:700;color:var(--accent)}
+.finding h3{color:var(--accent);margin-bottom:12px}
 @media(max-width:640px){.findings{grid-template-columns:minmax(0,1fr)}}
 table{font-family:var(--sans)}th{font-family:var(--sans);letter-spacing:.06em}
 .scorebar i{background:var(--accent)}

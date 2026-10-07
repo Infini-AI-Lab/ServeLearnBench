@@ -10,7 +10,6 @@ Haizhong Zheng<sup>1</sup>, Yizhuo Di<sup>1</sup>, Ranajoy Sadhukhan<sup>1</sup>
 
 [![Paper](https://img.shields.io/badge/arXiv-2610.07792-b31b1b.svg)](https://arxiv.org/abs/2610.07792)
 [![Website](https://img.shields.io/badge/website-online-9cf.svg)](https://infini-ai-lab.github.io/ServeLearnBench/)
-[![Dataset on HF](https://img.shields.io/badge/%F0%9F%A4%97-dataset-yellow.svg)](https://huggingface.co/datasets/haizhongzheng/ServeLearnBench)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)](pyproject.toml)
 

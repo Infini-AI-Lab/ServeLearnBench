@@ -1,8 +1,6 @@
 # ServeLearnBench dataset
 
 Every scenario's task stream and environment, as written by `slb export-data --out dataset`.
-The same files are published on Hugging Face as
-[haizhongzheng/ServeLearnBench](https://huggingface.co/datasets/haizhongzheng/ServeLearnBench).
 Layout and fields are described in [docs/data.md](../docs/data.md).
 
 The `evaluator` fields of each task and `environments/*/windows.json` describe the hidden policy.
