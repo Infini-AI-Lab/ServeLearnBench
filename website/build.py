@@ -171,10 +171,16 @@ def tier_rows(tiers):
 
 def bibtex(project):
     names = " and ".join(f"{a['name'].split()[-1]}, {' '.join(a['name'].split()[:-1])}" for a in project.get("authors", []))
+    publication = ""
+    if project.get("arxiv_id"):
+        publication = (f",\n  eprint = {{{project['arxiv_id']}}},"
+                       "\n  archivePrefix = {arXiv},"
+                       f"\n  primaryClass = {{{project.get('primary_class', 'cs.LG')}}},"
+                       f"\n  url    = {{{project['links']['Paper']}}}")
     return html.escape(f"""@misc{{zheng2026servelearnbench,
   title  = {{{project.get('title', 'ServeLearnBench')}}},
   author = {{{names}}},
-  year   = {{2026}}
+  year   = {{2026}}{publication}
 }}""")
 
 

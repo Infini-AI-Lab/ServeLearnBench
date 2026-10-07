@@ -8,6 +8,7 @@ Haizhong Zheng<sup>1</sup>, Yizhuo Di<sup>1</sup>, Ranajoy Sadhukhan<sup>1</sup>
 
 <sup>1</sup>Carnegie Mellon University &nbsp; <sup>2</sup>Amazon
 
+[![Paper](https://img.shields.io/badge/arXiv-2610.07792-b31b1b.svg)](https://arxiv.org/abs/2610.07792)
 [![Website](https://img.shields.io/badge/website-online-9cf.svg)](https://infini-ai-lab.github.io/ServeLearnBench/)
 [![Dataset on HF](https://img.shields.io/badge/%F0%9F%A4%97-dataset-yellow.svg)](https://huggingface.co/datasets/haizhongzheng/ServeLearnBench)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](./LICENSE)
@@ -153,7 +154,11 @@ If you find ServeLearnBench useful, please cite:
 @misc{zheng2026servelearnbench,
   title  = {ServeLearnBench: How Well Can Agents Self-Improve from Serving Experience?},
   author = {Zheng, Haizhong and Di, Yizhuo and Sadhukhan, Ranajoy and Jin, Shuowei and Chen, Beidi},
-  year   = {2026}
+  year   = {2026},
+  eprint = {2610.07792},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  url    = {https://arxiv.org/abs/2610.07792}
 }
 ```
 
